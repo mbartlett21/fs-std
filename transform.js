@@ -65,3 +65,10 @@ export function inverse(t is Transform) returns Transform
     var linear = inverse(t.linear);
     return transform(linear, -linear * t.translation);
 }
+
+// This lives here because we can see definitions of both ValueWithUnits and Matrix.
+export function rotationMatrix3d(axis is array, angle is ValueWithUnits) returns Matrix
+precondition size(axis) == 3;
+{
+    return @matrixRotation3d(axis, angle.value) as Matrix;
+}
