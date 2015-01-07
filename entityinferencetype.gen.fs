@@ -9,6 +9,9 @@ export enum EntityInferenceType
     MID_POINT,
     TOP_AXIS_POINT,
     MID_AXIS_POINT,
-    BOTTOM_AXIS_POINT
+    BOTTOM_AXIS_POINT,
+    ORIGIN_X,
+    ORIGIN_Y,
+    ORIGIN_Z
 }
 
