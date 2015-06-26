@@ -1,4 +1,4 @@
-FeatureScript 156; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 export import(path : "onshape/std/geomUtils.fs", version : "");
 
 annotation {"Feature Type Name" : "Shell"}
