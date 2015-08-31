@@ -33,17 +33,3 @@ precondition
                  midPoint + absoluteIncrement + halfDiagonal * (1 + factor));
 
 }
-
-export function evBox3d(context is Context, arg is map) returns map
-precondition
-{
-    arg.topology is Query;
-    arg.cSys == undefined || arg.cSys is Transform;
-}
-{
-    var result = @evBox(context, arg);
-    if (result.error == undefined)
-        result.result = box3d(meter * vector(result.result.minCorner), meter * vector(result.result.maxCorner));
-    return result;
-}
-
