@@ -1,4 +1,4 @@
-FeatureScript 9999;
+FeatureScript 146;
 /* Automatically generated file -- DO NOT EDIT */
 
 export enum UIHint
@@ -9,6 +9,7 @@ export enum UIHint
     CONTROL_VISIBILITY,
     NO_PREVIEW_PROVIDED,
     REMEMBER_PREVIOUS_VALUE,
-    DISPLAY_SHORT
+    DISPLAY_SHORT,
+    ALLOW_FEATURE_SELECTION
 }
 
