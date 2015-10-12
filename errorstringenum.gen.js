@@ -1,4 +1,4 @@
-FeatureScript 9999;
+FeatureScript 236; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 export enum ErrorStringEnum
@@ -409,6 +409,9 @@ export enum ErrorStringEnum
     DRAWING_ASSEMBLY_EMPTY_AFTER_SECTION_CUT,
     DRAWING_VIEW_GENERATION_FAILED,
     SKETCH_SLOT_FAILURE,
-    SKETCH_SLOT_PARTIAL_FAILURE
+    SKETCH_SLOT_PARTIAL_FAILURE,
+    NO_UNIT,
+    RESTRUCTURE_INVALID_SOURCE,
+    RESTRUCTURE_INVALID_TARGET
 }
 
