@@ -1,4 +1,4 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 244; /* Automatically generated version */
 /* This file contains enum types shared by multiple features. */
 // TODO: these should be generated
 
