@@ -1,4 +1,4 @@
-FeatureScript 244; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 /**
  * This module makes all Onshape standard library features and functions
  * available.

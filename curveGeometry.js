@@ -1,4 +1,4 @@
-FeatureScript 244; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // Imports used in interface
 export import(path : "onshape/std/curvetype.gen.fs", version : "");
 

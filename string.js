@@ -1,4 +1,4 @@
-FeatureScript 244; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 /** Pretty printing and toString methods */
 
 /**

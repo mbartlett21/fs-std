@@ -1,4 +1,4 @@
-FeatureScript 244; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 export import(path : "onshape/std/featurescriptversionnumber.gen.fs", version : "");
 import(path : "onshape/std/containers.fs", version : "");
 import(path : "onshape/std/string.fs", version : "");
