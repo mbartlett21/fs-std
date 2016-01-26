@@ -79,16 +79,3 @@ export function processPatternBooleansIfNeeded(context is Context, id is Id, def
         processNewBodyIfNeeded(context, id, mergeMaps(definition, { "seed" : definition.entities }), reconstructOp);
     }
 }
-
-/**
- * Determine if faces in the seed query are bounded by multiple faces
- * @param context
- * @param seed
- */
-export function isSeedOnSameFace(context is Context, seed is Query) returns boolean
-{
-    const adjacentFaceQuery = qEdgeAdjacent(seed, EntityType.FACE);
-    if (@size(evaluateQuery(context, qSubtraction(adjacentFaceQuery, seed))) > 1)
-        return false;
-    return true;
-}
