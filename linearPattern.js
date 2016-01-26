@@ -81,10 +81,8 @@ export const linearPattern = defineFeature(function(context is Context, id is Id
     }
     {
         if (definition.isFacePattern)
-        {
             definition.entities = definition.faces;
-            definition.sameFace = isSeedOnSameFace(context, definition.entities);
-        }
+
         checkInput(context, id, definition);
 
         // Compute a vector of transforms
@@ -151,4 +149,4 @@ export const linearPattern = defineFeature(function(context is Context, id is Id
 
         processPatternBooleansIfNeeded(context, id, definition);
     }, { isFacePattern : true, operationType : NewBodyOperationType.NEW,
-         hasSecondDir : false, oppositeDirection : false, oppositeDirectionTwo : false, sameFace : true });
+         hasSecondDir : false, oppositeDirection : false, oppositeDirectionTwo : false });
