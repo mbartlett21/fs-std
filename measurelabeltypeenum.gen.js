@@ -5,19 +5,14 @@ FeatureScript 9999; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** TODO: documentation */
-export enum SketchToolType
+export enum MeasureLabelTypeEnum
 {
-    NONE,
-    EXTEND,
-    MIRROR,
-    FILLET,
-    OFFSET,
-    USE,
-    TRIM,
-    PATTERN,
-    SLOT,
-    SPLIT,
-    SECTION
+    EMPTY,
+    CENTER,
+    START_POINT,
+    END_POINT,
+    ELLIPSE_CENTER,
+    MAX_RADIUS_POINT,
+    MIN_RADIUS_POINT
 }
 
