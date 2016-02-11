@@ -5,12 +5,14 @@ FeatureScript 307; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** TODO: documentation */
-export enum ManipulatorType
+export enum MeasureLabelTypeEnum
 {
-    LINEAR_1D,
-    LINEAR_3D,
-    ANGULAR,
-    FLIP
+    EMPTY,
+    CENTER,
+    START_POINT,
+    END_POINT,
+    ELLIPSE_CENTER,
+    MAX_RADIUS_POINT,
+    MIN_RADIUS_POINT
 }
 

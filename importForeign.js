@@ -1,4 +1,4 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 307; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
@@ -42,5 +42,10 @@ export const importForeign = defineFeature(function(context is Context, id is Id
         isInteger(definition.maxAssembliesToCreate, POSITIVE_COUNT_BOUNDS);
     }
     {
+        var remainingTransform = getRemainderPatternTransform(context,
+            {"references" : qNothing()});
         opImportForeign(context, id, definition);
+
+        transformResultIfNecessary(context, id, remainingTransform);
+
     }, { yAxisIsUp : false, flatten : false, maxAssembliesToCreate : 10});
