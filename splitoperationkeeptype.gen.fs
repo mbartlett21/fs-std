@@ -6,10 +6,13 @@ FeatureScript 328; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /** TODO: documentation */
-export enum DimensionAlignment
+export enum SplitOperationKeepType
 {
-    UNSPECIFIED,
-    ALIGNED,
-    ANTI_ALIGNED
+    annotation {"Name" : "Keep all"}
+    KEEP_ALL,
+    annotation {"Name" : "Keep front"}
+    KEEP_FRONT,
+    annotation {"Name" : "Keep back"}
+    KEEP_BACK
 }
 
