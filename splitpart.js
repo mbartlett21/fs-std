@@ -10,8 +10,9 @@ export import(path : "onshape/std/query.fs", version : "");
 import(path : "onshape/std/feature.fs", version : "");
 import(path : "onshape/std/tool.fs", version : "");
 import(path : "onshape/std/evaluate.fs", version : "");
+
 /**
- * Types of split
+ * Defines whether a `spit` should split whole parts, or just faces.
  */
 export enum SplitType
 {
@@ -22,12 +23,7 @@ export enum SplitType
 }
 
 /**
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature performing an `opSplit`.
  */
 annotation { "Feature Type Name" : "Split", "Filter Selector" : "allparts" }
 export const splitPart = defineFeature(function(context is Context, id is Id, definition is map)

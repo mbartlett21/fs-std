@@ -5,7 +5,9 @@ FeatureScript 9999; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** TODO: documentation */
+/**
+ * Specifies how a mate connector's coordinate system is defined with respect an entity.
+ */
 export enum EntityInferenceType
 {
     PART_ORIGIN,

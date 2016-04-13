@@ -10,6 +10,7 @@ export import(path : "onshape/std/surfaceGeometry.fs", version : "");
 // Imports used internally
 import(path : "onshape/std/box.fs", version : "");
 import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/coordSystem.fs", version : "");
 import(path : "onshape/std/evaluate.fs", version : "");
 import(path : "onshape/std/extrude.fs", version : "");
 import(path : "onshape/std/feature.fs", version : "");
@@ -75,16 +76,15 @@ function performSectionCutAndGetBodiesToDelete(context is Context, id is Id, pla
 }
 
 //Section Part Feature
+
 /**
- * Drawings don't have an upgrade process like part studios, so this cannot be changed or it will break
- * drawing queries.
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature creating a section of a part behind a plane. Internally, performs
+ * an `opSplitPart` followed by an `opDeleteBodies`.
+ *
+ * Not exposed in the Part Studio UI.
  */
+// Drawings don't have an upgrade process like part studios, so this cannot be changed or it will break
+// drawing queries.
 export const sectionPart = defineFeature(function(context is Context, id is Id, definition is map)
     precondition
     {
@@ -109,7 +109,7 @@ export const sectionPart = defineFeature(function(context is Context, id is Id, 
  * @param definition {{
  *      @field target {Query} : Bodies to be split.
  *      @field plane {Plane} :  Plane that splits the bodies. Everything
- *                                    on the positive z side of the plane will be removed.
+ *              on the positive z side of the plane will be removed.
  * }}
  */
 export const planeSectionPart = defineFeature(function(context is Context, id is Id, definition is map)

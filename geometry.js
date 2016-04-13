@@ -19,11 +19,10 @@ export import(path : "onshape/std/defaultFeatures.fs", version : "");
 export import(path : "onshape/std/feature.fs", version : "");
 export import(path : "onshape/std/featureList.fs", version : "");
 
-/* Query and evaluation */
 export import(path : "onshape/std/evaluate.fs", version : "");
 export import(path : "onshape/std/query.fs", version : "");
+export import(path : "onshape/std/uihint.gen.fs", version : "");
 
-/* Units and bounds */
 export import(path : "onshape/std/units.fs", version : "");
 export import(path : "onshape/std/valueBounds.fs", version : "");
 
