@@ -1,4 +1,4 @@
-FeatureScript 336; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
@@ -9,18 +9,18 @@ FeatureScript 336; /* Automatically generated version */
  * computation to be performed and return a ValueWithUnits or a FeatureScript geometry type (like Line or Plane). They
  * may also throw errors if a query fails to evaluate or the input is otherwise invalid.
  */
-import(path : "onshape/std/box.fs", version : "336.0");
-export import(path : "onshape/std/clashtype.gen.fs", version : "336.0");
-import(path : "onshape/std/containers.fs", version : "336.0");
-import(path : "onshape/std/context.fs", version : "336.0");
-import(path : "onshape/std/coordSystem.fs", version : "336.0");
-import(path : "onshape/std/curveGeometry.fs", version : "336.0");
-export import(path : "onshape/std/edgeconvexitytype.gen.fs", version : "336.0");
-import(path : "onshape/std/mathUtils.fs", version : "336.0");
-import(path : "onshape/std/query.fs", version : "336.0");
-import(path : "onshape/std/string.fs", version : "336.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "336.0");
-import(path : "onshape/std/units.fs", version : "336.0");
+import(path : "onshape/std/box.fs", version : "");
+export import(path : "onshape/std/clashtype.gen.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/context.fs", version : "");
+import(path : "onshape/std/coordSystem.fs", version : "");
+import(path : "onshape/std/curveGeometry.fs", version : "");
+export import(path : "onshape/std/edgeconvexitytype.gen.fs", version : "");
+import(path : "onshape/std/mathUtils.fs", version : "");
+import(path : "onshape/std/query.fs", version : "");
+import(path : "onshape/std/string.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
+import(path : "onshape/std/units.fs", version : "");
 
 /**
  * Given a face, calculate and return a Plane tangent to that face,
