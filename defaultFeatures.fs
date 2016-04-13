@@ -17,6 +17,7 @@ export function newContextWithDefaults() returns Context
     return newContextWithDefaults(meter);
 }
 
+/** @internal */
 export function newContextWithDefaults(defLengthUnit is ValueWithUnits)
 {
     var context = newContext();

@@ -5,15 +5,11 @@ FeatureScript 9999; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** TODO: documentation */
-export enum MeasureLabelTypeEnum
+/** @see `opBoolean` */
+export enum TopologyMatchType
 {
-    EMPTY,
-    CENTER,
-    START_POINT,
-    END_POINT,
-    ELLIPSE_CENTER,
-    MAX_RADIUS_POINT,
-    MIN_RADIUS_POINT
+    COINCIDENT,
+    OVERLAPING,
+    CONTAINED_2_IN_1
 }
 

@@ -26,12 +26,7 @@ const FILLET_RHO_BOUNDS =
 } as RealBoundSpec;
 
 /**
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature performing an `opFillet`.
  */
 annotation { "Feature Type Name" : "Fillet", "Manipulator Change Function" : "filletManipulatorChange", "Filter Selector" : "allparts" }
 export const fillet = defineFeature(function(context is Context, id is Id, definition is map)
@@ -101,18 +96,9 @@ function addFilletManipulator(context is Context, id is Id, definition is map)
     }
 }
 
-/*
- * Respond to drag changes to the fillet manipulator
- */
 /**
- * TODO: description
- * @param context
- * @param definition {{
- *      @field TODO
- * }}
- * @param newManipulators {{
- *      @field TODO
- * }}
+ * @internal
+ * Manipulator change function for `fillet`.
  */
 export function filletManipulatorChange(context is Context, definition is map, newManipulators is map) returns map
 {

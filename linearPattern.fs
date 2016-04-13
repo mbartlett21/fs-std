@@ -13,10 +13,9 @@ import(path : "onshape/std/mathUtils.fs", version : "");
 import(path : "onshape/std/units.fs", version : "");
 
 /**
- * Performs a body,face, or feature linear pattern.
- * @param definition {{
- *      @field TODO
- * }}
+ * Performs a body, face, or feature linear pattern. Internally, performs
+ * an `applyPattern`, which in turn performs an `opPattern` or, for a feature
+ * pattern, calls the feature function.
  */
 annotation { "Feature Type Name" : "Linear pattern", "Filter Selector" : "allparts" }
 export const linearPattern = defineFeature(function(context is Context, id is Id, definition is map)
