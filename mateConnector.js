@@ -19,12 +19,7 @@ import(path : "onshape/std/valueBounds.fs", version : "");
 
 // IB: are all the undefined comparisons necessary in the precondition?  Can they be turned into defaults?
 /**
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature performing an `opMateConnector`.
  */
 annotation { "Feature Type Name" : "Mate connector", "UIHint" : "CONTROL_VISIBILITY" , "Editing Logic Function" : "connectorEditLogic" }
 export const mateConnector = defineFeature(function(context is Context, id is Id, definition is map)

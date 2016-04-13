@@ -17,7 +17,7 @@ import(path : "onshape/std/surfaceGeometry.fs", version : "");
 import(path : "onshape/std/valueBounds.fs", version : "");
 
 /**
- * The type of construction plane.
+ * The method of defining a construction plane.
  */
 export enum CPlaneType
 {
@@ -68,10 +68,7 @@ const PLANE_OFFSET_BOUNDS =
 } as LengthBoundSpec;
 
 /**
- * Creates a construction plane.  @see `opPlane`.
- * @param definition {{
- *      @field TODO
- * }}
+ * Creates a construction plane feature by calling `opPlane`.
  */
 annotation { "Feature Type Name" : "Plane", "UIHint" : "CONTROL_VISIBILITY", "Editing Logic Function" : "cPlaneLogic"}
 export const cPlane = defineFeature(function(context is Context, id is Id, definition is map)
@@ -494,7 +491,7 @@ function createMidPlaneFromTwoPlanes(context is Context, id is Id, cplaneDefinit
 }
 
 /**
- * Figures out the type of plane based on the preselection.
+ * Heuristics to determine the type of plane to be constructed, based on user preselection.
  */
 export function cPlaneLogic(context is Context, id is Id, oldDefinition is map, definition is map) returns map
 {

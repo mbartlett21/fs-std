@@ -26,8 +26,7 @@ export predicate canBeLookupTablePath(value)
 }
 
 /**
- * Creates a lookupTablePath
- * @param source
+ * Creates a `lookupTablePath`.
  */
 export function lookupTablePath(source is map) returns LookupTablePath
 {
@@ -35,14 +34,15 @@ export function lookupTablePath(source is map) returns LookupTablePath
 }
 
 /**
- * Convert a table expression in string form into a ValueWithUnits
- * Currently only the following forms are supported.
- * `{} indicate an entity, <> indicate the contents are optional`
- * spaces between entities are optional unless they are required to separate entities.
- * `{number} <*> {units}`
- * `{number}/{number} <*> {units}`
- * `{number} <+> {number}/{number} <*> {units}`
- * Where `{number} is <-><nnn><.><nnn><e<+/->nnn>` or <->inf
+ * Convert a table expression in string form into a ValueWithUnits.
+ *
+ * @param expression : Currently the following forms are supported:
+ *          @ex `{number} <*> {units}`
+ *          @ex `{number}/{number} <*> {units}`
+ *          @ex `{number} <+> {number}/{number} <*> {units}`
+ *              Where `{number} is <-><nnn><.><nnn><e<+/->nnn>` or <->inf
+ *          @ex `{} indicate an entity, <> indicate the contents are optional`
+ *              spaces between entities are optional unless they are required to separate entities.
  */
 export function lookupTableEvaluate(expression is string) returns ValueWithUnits
 {

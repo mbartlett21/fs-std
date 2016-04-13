@@ -10,6 +10,7 @@ export import(path : "onshape/std/tool.fs", version : "");
 // Imports used internally
 import(path : "onshape/std/patternUtils.fs", version : "");
 import(path : "onshape/std/transform.fs", version : "");
+import(path : "onshape/std/vector.fs", version : "");
 
 /**
  * The curve pattern feature. Currently incomplete and disabled.

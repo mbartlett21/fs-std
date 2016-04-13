@@ -5,7 +5,9 @@ FeatureScript 9999; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** TODO: documentation */
+/**
+ * The subset of `GeometryType` which applies to 1-dimensional entities.
+ */
 export enum CurveType
 {
     CIRCLE,
