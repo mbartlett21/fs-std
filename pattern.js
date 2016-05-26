@@ -4,5 +4,4 @@ FeatureScript 9999; /* Automatically generated version */
 // Copyright (c) 2013-Present Onshape Inc.
 
 export import(path : "onshape/std/circularPattern.fs", version : "");
-export import(path : "onshape/std/curvePattern.fs", version : "");
 export import(path : "onshape/std/linearPattern.fs", version : "");
