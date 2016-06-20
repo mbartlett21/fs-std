@@ -1,5 +1,5 @@
-FeatureScript 370; /* Automatically generated version */
-export import(path : "onshape/std/units.fs", version : "370.0");
+FeatureScript 9999; /* Automatically generated version */
+export import(path : "onshape/std/units.fs", version : "");
 
 /**
  * @internal
