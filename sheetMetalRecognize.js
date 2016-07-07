@@ -3,6 +3,13 @@ FeatureScript 9999; /* Automatically generated version */
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
+/*
+ ******************************************
+ * Under development, not for general use!!
+ ******************************************
+ */
+
+
 export import(path : "onshape/std/query.fs", version : "");
 
 import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
