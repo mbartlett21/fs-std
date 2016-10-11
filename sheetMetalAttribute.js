@@ -10,6 +10,7 @@ FeatureScript 9999; /* Automatically generated version */
  */
 
 export import(path : "onshape/std/smjointtype.gen.fs", version : "");
+export import(path : "onshape/std/smjointstyle.gen.fs", version : "");
 export import(path : "onshape/std/smobjecttype.gen.fs", version : "");
 export import(path : "onshape/std/context.fs", version : "");
 export import(path : "onshape/std/query.fs", version : "");

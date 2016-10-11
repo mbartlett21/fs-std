@@ -5,14 +5,10 @@ FeatureScript 9999; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * @internal.
- */
-export enum SMJointType
+/** @internal */
+export enum ExtendSheetBoundingType
 {
-    annotation {"Name" : "Bend"}
-    BEND,
-    annotation {"Name" : "Rip"}
-    RIP
+    EXTEND_BY_DISTANCE,
+    EXTEND_TO_SURFACE
 }
 
