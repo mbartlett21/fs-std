@@ -7,19 +7,16 @@ FeatureScript 9999; /* Automatically generated version */
 
 /**
  * @internal.
+ * Types of corner relief in sheet metal parts.
  */
-export enum SMCornerStyle
+export enum SMCornerReliefStyle
 {
-    annotation {"Name" : "Square"}
-    SQUARE,
+    annotation {"Name" : "Rectangle"}
+    RECTANGLE,
     annotation {"Name" : "Round"}
     ROUND,
-    annotation {"Name" : "Tear"}
-    TEAR,
-    annotation {"Name" : "Arc"}
-    ARC,
-    annotation {"Name" : "Obround"}
-    OBROUND,
+    annotation {"Name" : "Closed"}
+    CLOSED,
     annotation {"Name" : "Simple"}
     SIMPLE
 }
