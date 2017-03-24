@@ -39,6 +39,7 @@ export enum ConstraintType
     DIAMETER,
     SILHOUETTED,
     CENTERLINE_DIMENSION,
-    INTERSECTED
+    INTERSECTED,
+    RHO
 }
 
