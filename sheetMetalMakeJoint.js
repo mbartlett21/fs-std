@@ -1,26 +1,26 @@
-FeatureScript 638; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-export import(path : "onshape/std/smjointstyle.gen.fs", version : "638.0");
-export import(path: "onshape/std/smjointtype.gen.fs", version: "638.0");
+export import(path : "onshape/std/smjointstyle.gen.fs", version : "");
+export import(path: "onshape/std/smjointtype.gen.fs", version: "");
 
-import(path : "onshape/std/attributes.fs", version : "638.0");
-import(path : "onshape/std/boolean.fs", version : "638.0");
-import(path : "onshape/std/containers.fs", version : "638.0");
-import(path : "onshape/std/error.fs", version : "638.0");
-import(path : "onshape/std/feature.fs", version : "638.0");
-import(path : "onshape/std/evaluate.fs", version : "638.0");
-import(path : "onshape/std/extendsheetboundingtype.gen.fs", version : "638.0");
-import(path : "onshape/std/geomOperations.fs", version : "638.0");
-import(path : "onshape/std/query.fs", version : "638.0");
-import(path : "onshape/std/sheetMetalAttribute.fs", version : "638.0");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "638.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "638.0");
-import(path : "onshape/std/topologyUtils.fs", version : "638.0");
-import(path : "onshape/std/units.fs", version : "638.0");
-import(path : "onshape/std/valueBounds.fs", version : "638.0");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/boolean.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/error.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/extendsheetboundingtype.gen.fs", version : "");
+import(path : "onshape/std/geomOperations.fs", version : "");
+import(path : "onshape/std/query.fs", version : "");
+import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
+import(path : "onshape/std/topologyUtils.fs", version : "");
+import(path : "onshape/std/units.fs", version : "");
+import(path : "onshape/std/valueBounds.fs", version : "");
 
 
 
