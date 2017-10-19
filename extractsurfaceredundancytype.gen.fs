@@ -5,16 +5,11 @@ FeatureScript 701; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * @internal.
- */
-export enum SMJointStyle
+/** @internal See [opExtractSurface]. */
+export enum ExtractSurfaceRedundancyType
 {
-    annotation {"Name" : "Edge Joint"}
-    EDGE,
-    annotation {"Name" : "Butt Joint - Primary"}
-    BUTT,
-    annotation {"Name" : "Butt Joint - Secondary"}
-    BUTT2
+    ALLOW_REDUNDANCY,
+    REMOVE_ADDED_REDUNDANCY,
+    REMOVE_ALL_REDUNDANCY
 }
 
