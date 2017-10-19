@@ -1,18 +1,18 @@
-FeatureScript 701; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-import(path : "onshape/std/attributes.fs", version : "701.0");
-import(path : "onshape/std/boolean.fs", version : "701.0");
-import(path : "onshape/std/containers.fs", version : "701.0");
-import(path : "onshape/std/evaluate.fs", version : "701.0");
-import(path : "onshape/std/feature.fs", version : "701.0");
-import(path : "onshape/std/holeAttribute.fs", version : "701.0");
-import(path : "onshape/std/patternCommon.fs", version : "701.0");
-import(path : "onshape/std/topologyUtils.fs", version : "701.0");
-import(path : "onshape/std/sheetMetalAttribute.fs", version : "701.0");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "701.0");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/boolean.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/holeAttribute.fs", version : "");
+import(path : "onshape/std/patternCommon.fs", version : "");
+import(path : "onshape/std/topologyUtils.fs", version : "");
+import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "");
 
 /**
  * @internal
