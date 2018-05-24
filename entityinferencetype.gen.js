@@ -20,6 +20,7 @@ export enum EntityInferenceType
     BOTTOM_AXIS_POINT,
     ORIGIN_X,
     ORIGIN_Y,
-    ORIGIN_Z
+    ORIGIN_Z,
+    LOOP_CENTER
 }
 
