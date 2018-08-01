@@ -1,5 +1,5 @@
-FeatureScript 877; /* Automatically generated version */
-export import(path : "onshape/std/partstudioitemtype.gen.fs", version : "877.0");
+FeatureScript 9999; /* Automatically generated version */
+export import(path : "onshape/std/partstudioitemtype.gen.fs", version : "");
 
 /** @internal */
 export type PartStudioData typecheck canBePartStudioData;
