@@ -5,16 +5,14 @@ FeatureScript 877; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * Specifies the cross section for a fillet operation.
- */
-export enum FilletCrossSection
+/** @internal */
+export enum PartStudioItemType
 {
-    annotation {"Name" : "Circular"}
-    CIRCULAR,
-    annotation {"Name" : "Conic"}
-    CONIC,
-    annotation {"Name" : "Curvature"}
-    CURVATURE
+    SOLID,
+    SURFACE,
+    WIRE,
+    MESH,
+    SKETCH,
+    FLATTENED_SHEET_METAL
 }
 
