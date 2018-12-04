@@ -8,11 +8,9 @@ FeatureScript 961; /* Automatically generated version */
 /**
  * @internal.
  */
-export enum SMObjectType
+export enum SMBendType
 {
-    MODEL,
-    WALL,
-    JOINT,
-    CORNER
+    STANDARD,
+    HEM
 }
 
