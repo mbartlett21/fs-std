@@ -5,16 +5,10 @@ FeatureScript 993; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * Specifies the cross section for a fillet operation.
- */
-export enum FilletCrossSection
+/** Specifies a surface type for the [RollSurface] parameter of [opRoll]. */
+export enum RollSurfaceType
 {
-    annotation {"Name" : "Circular"}
-    CIRCULAR,
-    annotation {"Name" : "Conic"}
-    CONIC,
-    annotation {"Name" : "Curvature"}
-    CURVATURE
+    CYLINDER,
+    PLANE
 }
 
