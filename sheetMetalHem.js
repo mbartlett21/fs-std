@@ -1,27 +1,27 @@
-FeatureScript 993; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-import(path : "onshape/std/attributes.fs", version : "993.0");
-import(path : "onshape/std/booleanoperationtype.gen.fs", version : "993.0");
-import(path : "onshape/std/boundingtype.gen.fs", version : "993.0");
-import(path : "onshape/std/containers.fs", version : "993.0");
-import(path : "onshape/std/context.fs", version : "993.0");
-import(path : "onshape/std/curveGeometry.fs", version : "993.0");
-import(path : "onshape/std/error.fs", version : "993.0");
-import(path : "onshape/std/evaluate.fs", version : "993.0");
-import(path : "onshape/std/feature.fs", version : "993.0");
-import(path : "onshape/std/math.fs", version : "993.0");
-import(path : "onshape/std/query.fs", version : "993.0");
-import(path : "onshape/std/rollSurface.fs", version : "993.0");
-import(path : "onshape/std/sheetMetalAttribute.fs", version : "993.0");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "993.0");
-import(path : "onshape/std/sketch.fs", version : "993.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "993.0");
-import(path : "onshape/std/topologyUtils.fs", version : "993.0");
-import(path : "onshape/std/valueBounds.fs", version : "993.0");
-import(path : "onshape/std/vector.fs", version : "993.0");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/booleanoperationtype.gen.fs", version : "");
+import(path : "onshape/std/boundingtype.gen.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/context.fs", version : "");
+import(path : "onshape/std/curveGeometry.fs", version : "");
+import(path : "onshape/std/error.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/math.fs", version : "");
+import(path : "onshape/std/query.fs", version : "");
+import(path : "onshape/std/rollSurface.fs", version : "");
+import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "");
+import(path : "onshape/std/sketch.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
+import(path : "onshape/std/topologyUtils.fs", version : "");
+import(path : "onshape/std/valueBounds.fs", version : "");
+import(path : "onshape/std/vector.fs", version : "");
 
 /**
  * Specifies the type of alignment of the hem
