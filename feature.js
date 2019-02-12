@@ -1,21 +1,21 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 1010; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
 // Imports that most features will need to use.
-export import(path : "onshape/std/context.fs", version : "");
-export import(path : "onshape/std/error.fs", version : "");
-export import(path : "onshape/std/geomOperations.fs", version : "");
-export import(path : "onshape/std/query.fs", version : "");
+export import(path : "onshape/std/context.fs", version : "1010.0");
+export import(path : "onshape/std/error.fs", version : "1010.0");
+export import(path : "onshape/std/geomOperations.fs", version : "1010.0");
+export import(path : "onshape/std/query.fs", version : "1010.0");
 
 // Imports used internally
-import(path : "onshape/std/containers.fs", version : "");
-import(path : "onshape/std/math.fs", version : "");
-import(path : "onshape/std/string.fs", version : "");
-import(path : "onshape/std/transform.fs", version : "");
-import(path : "onshape/std/units.fs", version : "");
-import(path : "onshape/std/tabReferences.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "1010.0");
+import(path : "onshape/std/math.fs", version : "1010.0");
+import(path : "onshape/std/string.fs", version : "1010.0");
+import(path : "onshape/std/transform.fs", version : "1010.0");
+import(path : "onshape/std/units.fs", version : "1010.0");
+import(path : "onshape/std/tabReferences.fs", version : "1010.0");
 
 /**
  * This function takes a regeneration function and wraps it to create a feature. It is exactly like
@@ -547,6 +547,12 @@ export function skipOrderDisambiguation(context is Context, id is Id)
     @skipOrderDisambiguation(context, id);
 }
 
+/** @internal */
+export function isInFeaturePattern(context is Context)
+{
+    return @isInFeaturePattern(context);
+}
+
 /**
  * @internal
  * Throws a regeneration error if the parameter specified is not a query for at least one
@@ -599,3 +605,13 @@ precondition
     return angle;
 }
 
+/**
+ * @internal
+ * A feature that does nothing
+ */
+export const dummyFeature = defineFeature(function(context is Context, id is Id, definition is map)
+    precondition
+    {
+    }
+    {
+    });
