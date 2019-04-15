@@ -3,6 +3,12 @@ FeatureScript 1053; /* Automatically generated version */
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-export import(path : "onshape/std/circularPattern.fs", version : "1053.0");
-export import(path : "onshape/std/curvePattern.fs", version : "1053.0");
-export import(path : "onshape/std/linearPattern.fs", version : "1053.0");
+/* Automatically generated file -- DO NOT EDIT */
+
+/** @internal */
+export enum BooleanAccuracy
+{
+    DEFAULT,
+    HIGH
+}
+
