@@ -6,13 +6,16 @@ FeatureScript 1095; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * @internal.
+ * Specifies where a constraint should be resolved
+ * FIXED_AT_START or FIXED_AT_END will fix the constraint
+ * to coincide with the start or end of parametric curves.
+ * FIXED_ON_CURVE will fix the help point.
  */
-export enum SMObjectType
+export enum FixedParameterPosition
 {
-    MODEL,
-    WALL,
-    JOINT,
-    CORNER
+    FIXED_AT_START,
+    FIXED_AT_END,
+    FIXED_ON_CURVE,
+    FREE
 }
 

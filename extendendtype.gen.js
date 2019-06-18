@@ -5,14 +5,12 @@ FeatureScript 1095; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * @internal.
- */
-export enum SMObjectType
+/** See [opExtendSheetBody]. */
+export enum ExtendEndType
 {
-    MODEL,
-    WALL,
-    JOINT,
-    CORNER
+    annotation {"Name" : "Blind"}
+    EXTEND_BLIND,
+    annotation {"Name" : "Up to target"}
+    EXTEND_TO_TARGET
 }
 
