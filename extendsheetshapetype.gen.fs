@@ -5,14 +5,12 @@ FeatureScript 1095; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * @internal.
- */
-export enum SMObjectType
+/** See [opExtendSheetBody]. */
+export enum ExtendSheetShapeType
 {
-    MODEL,
-    WALL,
-    JOINT,
-    CORNER
+    annotation {"Name" : "Linear"}
+    LINEAR,
+    annotation {"Name" : "Maintain curvature"}
+    SOFT
 }
 
