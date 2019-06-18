@@ -40,6 +40,7 @@ export enum ConstraintType
     SILHOUETTED,
     CENTERLINE_DIMENSION,
     INTERSECTED,
-    RHO
+    RHO,
+    EQUAL_CURVATURE
 }
 
