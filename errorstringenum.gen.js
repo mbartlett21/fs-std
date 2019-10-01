@@ -1862,6 +1862,8 @@ export enum ErrorStringEnum
     /* Cannot create a composite part containing a plane. */
     COMPOSITE_PLANE,
     /* Cannot create a composite part containing a non-modifiable body. */
-    COMPOSITE_NON_MODIFIABLE
+    COMPOSITE_NON_MODIFIABLE,
+    /* "Replace failed because it would create cyclical references." */
+    ASSEMBLY_REPLACE_WILL_CAUSE_CYCLES
 }
 
