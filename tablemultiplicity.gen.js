@@ -5,14 +5,13 @@ FeatureScript 1188; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** Specifies an axis for rotation. */
-export enum RotationType
+/**
+ * @internal.
+ */
+export enum TableMultiplicity
 {
-    annotation {"Name" : "Rotate about X"}
-    ABOUT_X,
-    annotation {"Name" : "Rotate about Y"}
-    ABOUT_Y,
-    annotation {"Name" : "Rotate about Z"}
-    ABOUT_Z
+    PER_PART,
+    PER_PART_STUDIO,
+    PER_ASSEMBLY
 }
 
