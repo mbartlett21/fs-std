@@ -1,19 +1,19 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 1204; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-export import(path : "onshape/std/geometriccontinuity.gen.fs", version : "");
-export import(path : "onshape/std/tool.fs", version : "");
+export import(path : "onshape/std/geometriccontinuity.gen.fs", version : "1204.0");
+export import(path : "onshape/std/tool.fs", version : "1204.0");
 
-import(path : "onshape/std/boolean.fs", version : "");
-import(path : "onshape/std/containers.fs", version : "");
-import(path : "onshape/std/feature.fs", version : "");
-import(path : "onshape/std/query.fs", version : "");
-import(path : "onshape/std/topologyUtils.fs", version : "");
-import(path : "onshape/std/transform.fs", version : "");
-import(path : "onshape/std/units.fs", version : "");
-import(path : "onshape/std/valueBounds.fs", version : "");
+import(path : "onshape/std/boolean.fs", version : "1204.0");
+import(path : "onshape/std/containers.fs", version : "1204.0");
+import(path : "onshape/std/feature.fs", version : "1204.0");
+import(path : "onshape/std/query.fs", version : "1204.0");
+import(path : "onshape/std/topologyUtils.fs", version : "1204.0");
+import(path : "onshape/std/transform.fs", version : "1204.0");
+import(path : "onshape/std/units.fs", version : "1204.0");
+import(path : "onshape/std/valueBounds.fs", version : "1204.0");
 
 /**
  * @internal
@@ -124,7 +124,7 @@ export const fill = defineFeature(function(context is Context, id is Id, definit
 
         if (definition.surfaceOperationType == NewSurfaceOperationType.ADD)
         {
-           if (autodetectMatches())
+           if (isAtVersionOrLater(context, FeatureScriptVersionNumber.V1197_DETECT_SURFACE_JOIN_CPP))
            {
                 joinSurfaceBodiesWithAutoMatching(context, id, definition, true, reconstructOp);
            }
