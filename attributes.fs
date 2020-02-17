@@ -19,9 +19,6 @@ import(path : "onshape/std/context.fs", version : "");
 import(path : "onshape/std/query.fs", version : "");
 import(path : "onshape/std/containers.fs", version : "");
 
-export import (path : "onshape/std/tablemultiplicity.gen.fs", version : "1224.0");
-export import (path : "onshape/std/columntype.gen.fs", version : "1224.0");
-
 /**
  * Attach an attribute to one or several entities.
  *
