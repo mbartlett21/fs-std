@@ -5,17 +5,11 @@ FeatureScript 1247; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** @internal */
-export enum SketchSilhouetteDisambiguation
+/** How text in a table column should be aligned */
+export enum TableTextAlignment
 {
-    NONE,
-    ALIGNED,
-    ANTI_ALIGNED,
-    OUTER,
-    INNER,
-    TORUS_TOP,
-    TORUS_BOTTOM,
-    TORUS_LEFT,
-    TORUS_RIGHT
+    LEFT,
+    CENTER,
+    RIGHT
 }
 
