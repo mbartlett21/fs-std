@@ -1,16 +1,16 @@
-FeatureScript 9999; /* Automatically generated version */
-import(path : "onshape/std/boundingtype.gen.fs", version : "");
-import(path : "onshape/std/booleanoperationtype.gen.fs", version : "");
-import(path : "onshape/std/containers.fs", version : "");
-import(path : "onshape/std/feature.fs", version : "");
-import(path : "onshape/std/evaluate.fs", version : "");
-import(path : "onshape/std/vector.fs", version : "");
+FeatureScript 1287; /* Automatically generated version */
+import(path : "onshape/std/boundingtype.gen.fs", version : "1287.0");
+import(path : "onshape/std/booleanoperationtype.gen.fs", version : "1287.0");
+import(path : "onshape/std/containers.fs", version : "1287.0");
+import(path : "onshape/std/feature.fs", version : "1287.0");
+import(path : "onshape/std/evaluate.fs", version : "1287.0");
+import(path : "onshape/std/vector.fs", version : "1287.0");
 
 /**
  *  Performs [opExtrude] twice to extrude two sketches and then [opBoolean] to produce the intersection of the extruded surfaces
  */
 annotation { "Feature Type Name" : "Projected curve",
-        "UIHint" : "NO_PREVIEW_PROVIDED" }
+        "UIHint" : UIHint.NO_PREVIEW_PROVIDED }
 export const projectCurves = defineFeature(function(context is Context, id is Id, definition is map)
     precondition
     {

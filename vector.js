@@ -1,14 +1,14 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 1287; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
 //Vector math
-import(path : "onshape/std/containers.fs", version : "");
-import(path : "onshape/std/math.fs", version : "");
-import(path : "onshape/std/units.fs", version : "");
-import(path : "onshape/std/matrix.fs", version : "");
-import(path : "onshape/std/string.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "1287.0");
+import(path : "onshape/std/math.fs", version : "1287.0");
+import(path : "onshape/std/units.fs", version : "1287.0");
+import(path : "onshape/std/matrix.fs", version : "1287.0");
+import(path : "onshape/std/string.fs", version : "1287.0");
 
 /**
  * A `Vector` is a non-empty array.  It should contain numbers or lengths.
@@ -455,14 +455,15 @@ export function perpendicularVectors(vector1 is Vector, vector2 is Vector) retur
  * @returns {array} : Array of arrays, where each array is a cluster of nearby
  *          points, represented as indices into points array.
  */
-export function clusterPoints( points is array, tolerance is number) returns array
+export function clusterPoints(points is array, tolerance is ValueWithUnits) returns array
 precondition
 {
     for (var point in points)
     {
         is3dLengthVector(point);
     }
+    isLength(tolerance);
 }
 {
-    return @clusterPoints(stripUnits(points), tolerance);
+    return @clusterPoints(stripUnits(points), tolerance.value);
 }
