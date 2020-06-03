@@ -1928,6 +1928,8 @@ export enum ErrorStringEnum
     /* "Failed to create exploded view." */
     FAILED_TO_CREATE_EXPLODED_VIEW,
     /* Instances have been added to the assembly. */
-    ASSEMBLY_NAMED_POSITIONS_NEW_INSTANCES
+    ASSEMBLY_NAMED_POSITIONS_NEW_INSTANCES,
+    /* Unexpected error regenerating feature.  Please contact support. */
+    SYS_FEATURE_EXCEPTION
 }
 
