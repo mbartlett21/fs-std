@@ -1930,6 +1930,10 @@ export enum ErrorStringEnum
     /* Instances have been added to the assembly. */
     ASSEMBLY_NAMED_POSITIONS_NEW_INSTANCES,
     /* Unexpected error regenerating feature.  Please contact support. */
-    SYS_FEATURE_EXCEPTION
+    SYS_FEATURE_EXCEPTION,
+    /* Some curves could not be created. */
+    CURVE_PARTIAL_FAILED,
+    /* Could not create any curves. */
+    CURVE_FAILED
 }
 
