@@ -5,11 +5,17 @@ FeatureScript 1349; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** How text in a table column should be aligned */
-export enum TableTextAlignment
+/**
+ * Color choices for the [debug] function
+ */
+export enum DebugColor
 {
-    LEFT,
-    CENTER,
-    RIGHT
+    RED,
+    GREEN,
+    BLUE,
+    CYAN,
+    MAGENTA,
+    YELLOW,
+    BLACK
 }
 
