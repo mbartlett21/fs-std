@@ -1936,6 +1936,10 @@ export enum ErrorStringEnum
     /* Could not create any curves. */
     CURVE_FAILED,
     /* Planes and mate connectors will be kept. */
-    SPLIT_KEEP_PLANES_AND_MATE_CONNECTORS
+    SPLIT_KEEP_PLANES_AND_MATE_CONNECTORS,
+    /* "Must specify explode line starting point." */
+    EXPLODE_LINES_MUST_SPECIFY_STARTING_POINT,
+    /* "Failed to compute explode line starting point." */
+    EXPLODE_LINES_FAILED_TO_RESOLVE_ENTITY
 }
 
