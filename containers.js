@@ -305,3 +305,19 @@ export function subArray(input is array, startIndex is number, endIndex is numbe
         result = @resize(result, @size(result) + 1, input[i]); // inlined append
     return result;
 }
+
+/**
+ * Inserts `value` into the array keyed by `key`, returns the updated map
+ */
+export function insertIntoMapOfArrays(mapToInsertInto is map, key, value) returns map
+{
+    if (mapToInsertInto[key] == undefined)
+    {
+        mapToInsertInto[key] = [value];
+    }
+    else
+    {
+        mapToInsertInto[key] = append(mapToInsertInto[key], value);
+    }
+    return mapToInsertInto;
+}
