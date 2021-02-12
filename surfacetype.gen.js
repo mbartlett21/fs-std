@@ -17,6 +17,7 @@ export enum SurfaceType
     TORUS,
     OTHER,
     REVOLVED,
-    EXTRUDED
+    EXTRUDED,
+    MESH
 }
 
