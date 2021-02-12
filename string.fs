@@ -162,3 +162,12 @@ export function length(s is string) returns number
     return @size(@splitIntoCharacters(s));
 }
 
+
+/**
+ *  Is undefined or empty string.
+ */
+export predicate isUndefinedOrEmptyString(val)
+{
+    val == undefined || val == "";
+}
+
