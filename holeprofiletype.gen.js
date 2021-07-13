@@ -5,11 +5,15 @@ FeatureScript 1549; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** @internal See [opExtractSurface]. */
-export enum ExtractSurfaceRedundancyType
+/**
+ * Describes how a [HoleProfile] is constructed in relation to its [HolePositionReference].
+ *
+ * @value POSITIONED: See [holeProfile].
+ * @value MATCHED: See [matchedHoleProfile].
+ */
+export enum HoleProfileType
 {
-    ALLOW_REDUNDANCY,
-    REMOVE_ADDED_REDUNDANCY,
-    REMOVE_ALL_REDUNDANCY
+    POSITIONED,
+    MATCHED
 }
 
