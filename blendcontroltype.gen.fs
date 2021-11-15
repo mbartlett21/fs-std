@@ -6,13 +6,13 @@ FeatureScript 1634; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * The subset of `GeometryType` which applies to 1-dimensional entities.
+ * Specifies the controlled quantitiy for fillet operation.
  */
-export enum CurveType
+export enum BlendControlType
 {
-    CIRCLE,
-    LINE,
-    OTHER,
-    ELLIPSE
+    annotation {"Name" : "Radius"}
+    RADIUS,
+    annotation {"Name" : "Width"}
+    WIDTH
 }
 
