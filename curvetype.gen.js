@@ -13,6 +13,7 @@ export enum CurveType
     CIRCLE,
     LINE,
     OTHER,
-    ELLIPSE
+    ELLIPSE,
+    SPLINE
 }
 
