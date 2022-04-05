@@ -24,6 +24,7 @@ export enum PropertyType
     TITLE_3,
     EXCLUDE_FROM_BOM,
     CUSTOM,
-    MASS_OVERRIDE
+    MASS_OVERRIDE,
+    REVISION
 }
 
