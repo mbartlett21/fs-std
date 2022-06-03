@@ -5,14 +5,16 @@ FeatureScript 1777; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * @internal.
- */
-export enum SMObjectType
+/** See [assignVariable]. */
+export enum VariableType
 {
-    MODEL,
-    WALL,
-    JOINT,
-    CORNER
+    annotation {"Name" : "Length"}
+    LENGTH,
+    annotation {"Name" : "Angle"}
+    ANGLE,
+    annotation {"Name" : "Number"}
+    NUMBER,
+    annotation {"Name" : "Any"}
+    ANY
 }
 
