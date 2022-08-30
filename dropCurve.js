@@ -1,13 +1,13 @@
-FeatureScript 1837; /* Automatically generated version */
-import(path : "onshape/std/containers.fs", version : "1837.0");
-import(path : "onshape/std/feature.fs", version : "1837.0");
-import(path : "onshape/std/evaluate.fs", version : "1837.0");
-import(path : "onshape/std/vector.fs", version : "1837.0");
-import(path : "onshape/std/topologyUtils.fs", version : "1837.0");
-import(path : "onshape/std/manipulator.fs", version : "1837.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "1837.0");
+FeatureScript 9999; /* Automatically generated version */
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/vector.fs", version : "");
+import(path : "onshape/std/topologyUtils.fs", version : "");
+import(path : "onshape/std/manipulator.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
 
-export import(path : "onshape/std/projectiontype.gen.fs", version : "1837.0");
+export import(path : "onshape/std/projectiontype.gen.fs", version : "");
 
 /**
  *  Projects selected curves on a face along a direction or the target surface normal.
