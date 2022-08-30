@@ -5,14 +5,12 @@ FeatureScript 1837; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** See [opSplitPart]. */
-export enum SplitOperationKeepType
+/** See [opDropCurve]. */
+export enum ProjectionType
 {
-    annotation {"Name" : "Keep all"}
-    KEEP_ALL,
-    annotation {"Name" : "Keep front"}
-    KEEP_FRONT,
-    annotation {"Name" : "Keep back"}
-    KEEP_BACK
+    annotation {"Name" : "Direction"}
+    DIRECTION,
+    annotation {"Name" : "Normal to face"}
+    NORMAL_TO_FACE
 }
 
