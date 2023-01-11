@@ -1,22 +1,22 @@
-FeatureScript 1948; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-import(path : "onshape/std/units.fs", version : "1948.0");
-import(path : "onshape/std/valueBounds.fs", version : "1948.0");
-import(path : "onshape/std/frameUtils.fs", version : "1948.0");
-import(path : "onshape/std/feature.fs", version : "1948.0");
-import(path : "onshape/std/evaluate.fs", version : "1948.0");
-import(path : "onshape/std/containers.fs", version : "1948.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "1948.0");
-import(path : "onshape/std/string.fs", version : "1948.0");
-import(path : "onshape/std/vector.fs", version : "1948.0");
-import(path : "onshape/std/coordSystem.fs", version : "1948.0");
-import(path : "onshape/std/sketch.fs", version : "1948.0");
-import(path : "onshape/std/curveGeometry.fs", version : "1948.0");
-import(path : "onshape/std/manipulator.fs", version : "1948.0");
-import(path : "onshape/std/frameAttributes.fs", version : "1948.0");
+import(path : "onshape/std/units.fs", version : "");
+import(path : "onshape/std/valueBounds.fs", version : "");
+import(path : "onshape/std/frameUtils.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
+import(path : "onshape/std/string.fs", version : "");
+import(path : "onshape/std/vector.fs", version : "");
+import(path : "onshape/std/coordSystem.fs", version : "");
+import(path : "onshape/std/sketch.fs", version : "");
+import(path : "onshape/std/curveGeometry.fs", version : "");
+import(path : "onshape/std/manipulator.fs", version : "");
+import(path : "onshape/std/frameAttributes.fs", version : "");
 
 const MIN_SIZE = NONNEGATIVE_LENGTH_BOUNDS[meter][0] * meter;
 
