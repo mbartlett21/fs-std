@@ -940,13 +940,3 @@ function createExternalThreadAttribute(id is string, minorDiameter is ValueWithU
     threadAttribute.cylinderAlignedWithThreadDirection = cylinderAlignedWithThreadDirection;
     return threadAttribute;
 }
-
-/** @internal */
-export function setHighlightedEntities(context is Context, definition is map)
-precondition
-{
-    definition.entities is Query;
-}
-{
-    try(@setHighlightedEntities(context, definition));
-}
