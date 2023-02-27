@@ -6,14 +6,14 @@ FeatureScript 1977; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * @internal.
- * Types of corner breaks in sheet metal parts.
- */
-export enum SMCornerBreakStyle
+ * Allows differentiation of linear and circular patterns in computed data */
+export enum RecordPatternType
 {
-    annotation {"Name" : "Chamfer"}
-    CHAMFER,
-    annotation {"Name" : "Fillet"}
-    FILLET
+    annotation {"Name" : "Not a pattern"}
+    NONE,
+    annotation {"Name" : "Linear pattern"}
+    LINEAR,
+    annotation {"Name" : "Circular pattern"}
+    CIRCULAR
 }
 
