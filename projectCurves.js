@@ -1,16 +1,16 @@
-FeatureScript 1991; /* Automatically generated version */
-import(path : "onshape/std/booleanoperationtype.gen.fs", version : "1991.0");
-import(path : "onshape/std/boundingtype.gen.fs", version : "1991.0");
-import(path : "onshape/std/containers.fs", version : "1991.0");
-import(path : "onshape/std/evaluate.fs", version : "1991.0");
-import(path : "onshape/std/feature.fs", version : "1991.0");
-import(path : "onshape/std/manipulator.fs", version : "1991.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "1991.0");
-import(path : "onshape/std/topologyUtils.fs", version : "1991.0");
-import(path : "onshape/std/units.fs", version : "1991.0");
-import(path : "onshape/std/vector.fs", version : "1991.0");
+FeatureScript 9999; /* Automatically generated version */
+import(path : "onshape/std/booleanoperationtype.gen.fs", version : "");
+import(path : "onshape/std/boundingtype.gen.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/manipulator.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
+import(path : "onshape/std/topologyUtils.fs", version : "");
+import(path : "onshape/std/units.fs", version : "");
+import(path : "onshape/std/vector.fs", version : "");
 
-export import(path : "onshape/std/projectiontype.gen.fs", version : "1991.0");
+export import(path : "onshape/std/projectiontype.gen.fs", version : "");
 
 /**
  * Specifies the method used for generating intersection curves.
