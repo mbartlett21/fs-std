@@ -5,16 +5,9 @@ FeatureScript 1991; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** See [opBoolean]. */
-export enum BooleanOperationType
+/** @internal */
+export enum ImageMappingType
 {
-    annotation {"Name" : "Union"}
-    UNION,
-    annotation {"Name" : "Subtract"}
-    SUBTRACTION,
-    annotation {"Name" : "Intersect"}
-    INTERSECTION,
-    annotation {"Hidden" : true}
-    SUBTRACT_COMPLEMENT
+    PLANAR
 }
 
