@@ -6,14 +6,13 @@ FeatureScript 2014; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * Describes how a [HoleProfile] is constructed in relation to its [HolePositionReference].
- *
- * @value POSITIONED: See [holeProfile].
- * @value MATCHED: See [matchedHoleProfile].
+ * Specifies the type of cross section of the blend.
  */
-export enum HoleProfileType
+export enum FaceBlendCrossSection
 {
-    POSITIONED,
-    MATCHED
+    annotation {"Name" : "Rolling ball"}
+    ROLLING_BALL,
+    annotation {"Name" : "Swept profile"}
+    SWEPT_PROFILE
 }
 

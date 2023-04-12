@@ -1,4 +1,4 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 2014; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
@@ -32,10 +32,10 @@ FeatureScript 9999; /* Automatically generated version */
  * ```
  */
 
-import(path : "onshape/std/containers.fs", version : "");
-import(path : "onshape/std/math.fs", version : "");
-import(path : "onshape/std/error.fs", version : "");
-export import(path : "onshape/std/units.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "2014.0");
+import(path : "onshape/std/math.fs", version : "2014.0");
+import(path : "onshape/std/error.fs", version : "2014.0");
+export import(path : "onshape/std/units.fs", version : "2014.0");
 
 /** @internal */
 function verifyBounds(value, boundSpec is map) returns boolean
@@ -1009,3 +1009,12 @@ export predicate canBeEnergyBoundSpec(value)
     for (var entry in value)
         isEnergy(entry.key);
 }
+
+/**
+ * @internal
+ * A `RealBoundSpec` for a value greater than or equal to zero and strictly less than 1.
+ */
+export const FILLET_RHO_BOUNDS =
+{
+    (unitless) : [0.0, 0.5, 0.99999]
+} as RealBoundSpec;

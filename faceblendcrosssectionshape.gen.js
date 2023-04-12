@@ -6,14 +6,17 @@ FeatureScript 2014; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * Describes how a [HoleProfile] is constructed in relation to its [HolePositionReference].
- *
- * @value POSITIONED: See [holeProfile].
- * @value MATCHED: See [matchedHoleProfile].
+ * Specifies the cross sectional control for a fillet operation.
  */
-export enum HoleProfileType
+export enum FaceBlendCrossSectionShape
 {
-    POSITIONED,
-    MATCHED
+    annotation {"Name" : "Circular"}
+    CIRCULAR,
+    annotation {"Name" : "Conic"}
+    CONIC,
+    annotation {"Name" : "Curvature"}
+    CURVATURE,
+    annotation {"Name" : "Chamfer"}
+    CHAMFER
 }
 
