@@ -6,14 +6,15 @@ FeatureScript 2014; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * Describes how a [HoleProfile] is constructed in relation to its [HolePositionReference].
- *
- * @value POSITIONED: See [holeProfile].
- * @value MATCHED: See [matchedHoleProfile].
+ * Specifies the propagation type of the blend.
  */
-export enum HoleProfileType
+export enum FaceBlendPropagation
 {
-    POSITIONED,
-    MATCHED
+    annotation {"Name" : "Tangent"}
+    TANGENT,
+    annotation {"Name" : "Adjacent"}
+    ADJACENT,
+    annotation {"Name" : "Custom"}
+    CUSTOM
 }
 

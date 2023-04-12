@@ -6,14 +6,17 @@ FeatureScript 2014; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * Describes how a [HoleProfile] is constructed in relation to its [HolePositionReference].
- *
- * @value POSITIONED: See [holeProfile].
- * @value MATCHED: See [matchedHoleProfile].
+ * Specifies how to trim the created blend.
  */
-export enum HoleProfileType
+export enum FaceBlendTrimType
 {
-    POSITIONED,
-    MATCHED
+    annotation {"Name" : "Walls"}
+    WALLS,
+    annotation {"Name" : "Short"}
+    SHORT,
+    annotation {"Name" : "Long"}
+    LONG,
+    annotation {"Name" : "No trim"}
+    NO_TRIM
 }
 
