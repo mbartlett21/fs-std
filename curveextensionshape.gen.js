@@ -6,11 +6,13 @@ FeatureScript 2066; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * @internal.
+ * Specifies the shape of curve extension.
  */
-export enum SMBendType
+export enum CurveExtensionShape
 {
-    STANDARD,
-    HEM
+    annotation {"Name" : "Curvature"}
+    CURVATURE,
+    annotation {"Name" : "Tangent"}
+    TANGENT
 }
 
