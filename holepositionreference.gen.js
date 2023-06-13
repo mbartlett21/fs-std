@@ -1,4 +1,4 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 2066; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
@@ -48,6 +48,8 @@ export enum HolePositionReference
     AXIS_POINT,
     TARGET_START,
     LAST_TARGET_START,
-    LAST_TARGET_END
+    LAST_TARGET_END,
+    UP_TO_ENTITY,
+    UP_TO_NEXT
 }
 

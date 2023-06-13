@@ -6,11 +6,13 @@ FeatureScript 2066; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * @internal.
+ * Specifies whether to trim or extend the curve.
  */
-export enum SMBendType
+export enum MoveCurveBoundaryType
 {
-    STANDARD,
-    HEM
+    annotation {"Name" : "Trim"}
+    TRIM,
+    annotation {"Name" : "Extend"}
+    EXTEND
 }
 

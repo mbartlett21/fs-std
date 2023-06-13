@@ -6,11 +6,13 @@ FeatureScript 2066; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * @internal.
+ * Specifies the end condition for curve extension.
  */
-export enum SMBendType
+export enum CurveExtensionEndCondition
 {
-    STANDARD,
-    HEM
+    annotation {"Name" : "Blind"}
+    BLIND,
+    annotation {"Name" : "Up to entity"}
+    UP_TO_ENTITY
 }
 
