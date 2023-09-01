@@ -1,15 +1,15 @@
-FeatureScript 2130; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-import(path : "onshape/std/attributes.fs", version : "2130.0");
-import(path : "onshape/std/containers.fs", version : "2130.0");
-import(path : "onshape/std/error.fs", version : "2130.0");
-import(path : "onshape/std/feature.fs", version : "2130.0");
-import(path : "onshape/std/featureList.fs", version : "2130.0");
-import(path : "onshape/std/frameAttributes.fs", version : "2130.0");
-import(path : "onshape/std/frameUtils.fs", version : "2130.0");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/error.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/featureList.fs", version : "");
+import(path : "onshape/std/frameAttributes.fs", version : "");
+import(path : "onshape/std/frameUtils.fs", version : "");
 
 /**
  * Tag a frame profile with metadata. The metadata will be displayed in the cut list for frames derived from the
