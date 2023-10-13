@@ -5,10 +5,14 @@ FeatureScript 2155; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** @internal */
-export enum ImageMappingType
+/**
+ * Specifies how to fill the gap between adjacent tapered faces.
+ */
+export enum BodyDraftCornerType
 {
-    PLANAR,
-    CYLINDRICAL
+    annotation {"Name" : "Extend"}
+    EXTEND,
+    annotation {"Name" : "Plane"}
+    PLANE
 }
 
