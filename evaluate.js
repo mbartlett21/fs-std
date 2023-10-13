@@ -1421,3 +1421,25 @@ function offsetGroup(group is map) returns OffsetGroup
     return {'side0' : side0, 'side1' : side1,
         'offsetLow' : group.offsetLow * meter, 'offsetHigh' : group.offsetHigh * meter} as OffsetGroup;
 }
+
+/**
+ * @internal
+ * Given a query for faces created as a result of holes in sheet metal, returns the corresponding hole tool bodies.
+ */
+export function evSheetMetalHoleToolBodies(context is Context, definition is map) returns map
+precondition
+{
+    definition.sheetMetalHoleFaces is Query;
+}
+{
+    var holeToolMap = @evSheetMetalHoleToolBodies(context, definition);
+    var outBodies = [];
+    var outTransforms = [];
+    for (var i = 0; i < size(holeToolMap.sheetMetalHoleToolBodies); i += 1)
+    {
+        outBodies = append(outBodies, qTransient(holeToolMap.sheetMetalHoleToolBodies[i]));
+        outTransforms = append(outTransforms, transformFromBuiltin(holeToolMap.sheetMetalHoleToolTransforms[i]));
+    }
+    return {"sheetMetalHoleToolBodies" : outBodies,
+        "sheetMetalHoleToolTransforms" : outTransforms};
+}
