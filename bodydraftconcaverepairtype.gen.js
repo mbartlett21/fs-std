@@ -5,10 +5,16 @@ FeatureScript 2155; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** @internal */
-export enum ImageMappingType
+/**
+ * Specifies how to repair miter at concave corners.
+ */
+export enum BodyDraftConcaveRepairType
 {
-    PLANAR,
-    CYLINDRICAL
+    annotation {"Name" : "None"}
+    NONE,
+    annotation {"Name" : "Radius"}
+    RADIUS,
+    annotation {"Name" : "Mix"}
+    MIX
 }
 
