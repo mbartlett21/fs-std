@@ -5,14 +5,10 @@ FeatureScript 2180; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * Specifies whether to trim or extend the curve.
- */
-export enum MoveCurveBoundaryType
+/** See [opThicken]. */
+export enum SideGeometryRule
 {
-    annotation {"Name" : "Trim"}
-    TRIM,
-    annotation {"Name" : "Extend"}
-    EXTEND
+    annotation {"Name" : "Revolved"}
+    REVOLVED
 }
 
