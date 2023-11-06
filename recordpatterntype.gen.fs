@@ -14,6 +14,8 @@ export enum RecordPatternType
     annotation {"Name" : "Linear pattern"}
     LINEAR,
     annotation {"Name" : "Circular pattern"}
-    CIRCULAR
+    CIRCULAR,
+    annotation {"Name" : "Curve pattern"}
+    CURVE
 }
 
