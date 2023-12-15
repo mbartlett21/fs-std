@@ -5,14 +5,11 @@ FeatureScript 2221; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * Specifies whether to trim or extend the curve.
- */
-export enum MoveCurveBoundaryType
+/** @internal */
+export enum HolePropagationType
 {
-    annotation {"Name" : "Trim"}
-    TRIM,
-    annotation {"Name" : "Extend"}
-    EXTEND
+    NO_PROPAGATION,
+    PROPAGATE_NEW_HOLE,
+    PROPAGATE_SAME_HOLE
 }
 
