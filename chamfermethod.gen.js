@@ -5,14 +5,12 @@ FeatureScript 2221; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * Specifies whether to trim or extend the curve.
- */
-export enum MoveCurveBoundaryType
+/** See [opChamfer]. */
+export enum ChamferMethod
 {
-    annotation {"Name" : "Trim"}
-    TRIM,
-    annotation {"Name" : "Extend"}
-    EXTEND
+    annotation {"Name" : "Offset"}
+    FACE_OFFSET,
+    annotation {"Name" : "Tangent"}
+    APEX_RANGE
 }
 
