@@ -10,9 +10,9 @@ FeatureScript 9999; /* Automatically generated version */
  */
 export enum BodyDraftMatchFaceType
 {
-    annotation {"Name" : "Reference edge"}
-    REFERENCE_EDGE,
     annotation {"Name" : "Tangent to face"}
-    TANGENT_TO_FACE
+    TANGENT_TO_FACE,
+    annotation {"Name" : "Reference edge"}
+    REFERENCE_EDGE
 }
 
