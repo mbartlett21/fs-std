@@ -10,11 +10,11 @@ FeatureScript 9999; /* Automatically generated version */
  */
 export enum BodyDraftSelectionType
 {
-    annotation {"Name" : "Edges"}
-    EDGES,
-    annotation {"Name" : "Faces"}
+    annotation {"Name" : "Parts to draft"}
+    PARTS,
+    annotation {"Name" : "Faces to draft"}
     FACES,
-    annotation {"Name" : "Parts"}
-    PARTS
+    annotation {"Name" : "Edges to hold"}
+    EDGES
 }
 
