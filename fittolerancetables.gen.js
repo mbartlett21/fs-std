@@ -1,12 +1,12 @@
-FeatureScript 2321; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
-import(path : "onshape/std/units.fs", version : "2321.0");
-import(path : "onshape/std/lookupTablePath.fs", version : "2321.0");
-import(path : "onshape/std/string.fs", version : "2321.0");
-import(path : "onshape/std/containers.fs", version : "2321.0");
-import(path : "onshape/std/error.fs", version : "2321.0");
-import(path : "onshape/std/math.fs", version : "2321.0");
+import(path : "onshape/std/units.fs", version : "");
+import(path : "onshape/std/lookupTablePath.fs", version : "");
+import(path : "onshape/std/string.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/error.fs", version : "");
+import(path : "onshape/std/math.fs", version : "");
 
 const ANSI_HoleBasisPreferredClearanceTable = {
     "name" : "holeClass",
