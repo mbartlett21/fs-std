@@ -26,7 +26,9 @@ export import(path : "onshape/std/edgetopology.gen.fs", version : "");
 export import(path : "onshape/std/mateconnectoraxistype.gen.fs", version : "");
 
 export import(path : "onshape/std/computedPartProperty.fs", version : "");
+export import(path : "onshape/std/libraryValidation.fs", version : "");
 export import(path : "onshape/std/table.fs", version : "");
+export import(path : "onshape/std/templatestring.fs", version : "");
 export import(path : "onshape/std/units.fs", version : "");
 export import(path : "onshape/std/valueBounds.fs", version : "");
 

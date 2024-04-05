@@ -45,7 +45,7 @@ export const deleteBodies = defineFeature(function(context is Context, id is Id,
         else
         {
             annotation { "Name" : "Entities to delete",
-                         "Filter" : EntityType.BODY && !BodyType.COMPOSITE && AllowMeshGeometry.YES && ModifiableEntityOnly.YES }
+                         "Filter" : EntityType.BODY && !BodyType.COMPOSITE && AllowMeshGeometry.YES && ModifiableEntityOnly.YES && SketchObject.NO }
             definition.nonCompositeEntities is Query;
         }
     }

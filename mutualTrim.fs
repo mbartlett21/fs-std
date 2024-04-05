@@ -117,9 +117,14 @@ export const mutualTrim = defineFeature(function(context is Context, id is Id, d
 
 function findFacesToDelete(context is Context, id is Id, definition is map, splitId is Id) returns Query
 {
-    const imprintEdgesInBody1Q = qIntersection([qCreatedBy(id, EntityType.EDGE),
+    var base = qCreatedBy(id, EntityType.EDGE);
+    if (isAtVersionOrLater(context, FeatureScriptVersionNumber.V2312_MUTUAL_TRIM_SPLIT_FIX))
+    {
+        base = qUnion([base, qSplitBy(splitId, EntityType.EDGE, false), qSplitBy(splitId, EntityType.EDGE, true)]);
+    }
+    const imprintEdgesInBody1Q = qIntersection([base,
                     qOwnedByBody(definition.body1, EntityType.EDGE)])->qEdgeTopologyFilter(EdgeTopology.TWO_SIDED);
-    const imprintEdgesInBody2Q = qIntersection([qCreatedBy(id, EntityType.EDGE),
+    const imprintEdgesInBody2Q = qIntersection([base,
                     qOwnedByBody(definition.body2, EntityType.EDGE)])->qEdgeTopologyFilter(EdgeTopology.TWO_SIDED);
     if (isQueryEmpty(context, imprintEdgesInBody1Q) || isQueryEmpty(context, imprintEdgesInBody2Q))
     {

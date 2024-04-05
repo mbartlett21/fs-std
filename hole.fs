@@ -3382,6 +3382,10 @@ function addCommonAttributeProperties(context is Context, attribute is HoleAttri
     if (resultAttribute.endType == HoleEndStyle.THROUGH)
     {
         resultAttribute.partialThrough = holeDefinitionForAttribute.partialThrough;
+        if (isAtVersionOrLater(context, FeatureScriptVersionNumber.V2317_HOLE_PARTIAL_THROUGH_FIX) && resultAttribute.partialThrough == true)
+        {
+            resultAttribute.holeDepth = holeDefinitionForAttribute.holeDepth;
+        }
     }
     else
     {
