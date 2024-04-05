@@ -53,7 +53,7 @@ export const frame = defineFeature(function(context is Context, id is Id, defini
     precondition
     {
         annotation {
-                    "Default Purpose" : "ONSHAPE_WELDMENT_PROFILE",
+                    "Library Definition" : "65dcc2a02c4ff1c239467ec9", // This is the id of the Onshape Frame Profile Library definition
                     "Name" : "Sketch profile",
                     "Filter" : PartStudioItemType.SKETCH,
                     "MaxNumberOfPicks" : 1,

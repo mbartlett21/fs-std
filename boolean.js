@@ -532,7 +532,8 @@ export predicate surfaceJoinStepScopePredicate(definition is map)
             definition.defaultSurfaceScope is boolean;
             if (definition.defaultSurfaceScope != true)
             {
-                annotation { "Name" : "Merge scope", "Filter" : EntityType.BODY && BodyType.SHEET && ModifiableEntityOnly.YES && AllowMeshGeometry.YES }
+                annotation { "Name" : "Merge scope", "Filter" : EntityType.BODY && BodyType.SHEET && ModifiableEntityOnly.YES &&
+                            AllowMeshGeometry.YES && SketchObject.NO }
                 definition.booleanSurfaceScope is Query;
             }
         }

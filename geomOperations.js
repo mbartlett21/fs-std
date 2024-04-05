@@ -365,6 +365,8 @@ export function curveOnFaceDefinition(face is Query, creationType is FaceCurveCr
  * @param id : @autocomplete `id + "curvesOnFace"`
  * @param definition {{
  *      @field curveDefinition {array} : An array of [CurveOnFaceDefinition]s that describe group of curves per face.
+        @field showCurves {boolean} : Whether to display isoparameteric curves in color in the preview. @optional
+        @field useFaceParameter {boolean} : For Onshape internal use. @optional
  * }}
  */
 export const opCreateCurvesOnFace = function(context is Context, id is Id, definition is map)
