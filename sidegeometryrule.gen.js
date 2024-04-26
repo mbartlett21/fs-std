@@ -9,6 +9,8 @@ FeatureScript 9999; /* Automatically generated version */
 export enum SideGeometryRule
 {
     annotation {"Name" : "Revolved"}
-    REVOLVED
+    REVOLVED,
+    annotation {"Name" : "Supplied"}
+    SUPPLIED
 }
 
