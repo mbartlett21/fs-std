@@ -64,6 +64,7 @@ FeatureScript 9999; /* Automatically generated version */
  * @value SHOW_TOLERANCE : For a boolean parameter, display as a toggle button with tolerance icon next to
  *      the previous parameter.
  * @value ALLOW_ARRAY_FOCUS : Allow focusing an array parameter with no driving or inner QLV, as if it were selection-driven.
+ * @value SHOW_INLINE_CONFIG_INPUTS : Inline the configuration parameters in the configure dialog for the feature.
  */
 export enum UIHint
 {
@@ -95,6 +96,7 @@ export enum UIHint
     VARIABLE_NAME,
     FOCUS_INNER_QUERY,
     SHOW_TOLERANCE,
-    ALLOW_ARRAY_FOCUS
+    ALLOW_ARRAY_FOCUS,
+    SHOW_INLINE_CONFIG_INPUTS
 }
 
