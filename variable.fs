@@ -99,7 +99,7 @@ const AXIS_COLORS = [
  *      @field numberValue {number} : Used if `variableType` is `NUMBER`.
  *      @field anyValue : Used if `variableType` is `ANY`.  Can be any immutable FeatureScript value, including a length, an array, or a function.
  *      @field measurementMode {VariableMeasurementMode} : Whether to measure distance, length, or diameter.
- *      @field entityCouple {Query} : Query for distance mode, containing two entites to measure the distance between.
+ *      @field entityCouple {Query} : Query for distance mode, containing two entities to measure the distance between.
  *      @field minmax {VariableMinMaxSelection} : Whether to measure the minimum or maximum distance.
  *      @field axis {AxisWithCustom} : Axis to measure distance along.
  *      @field extendEntities {boolean} : Extend selected planes and lines out to infinity. Incompatible with maximum.
