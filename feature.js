@@ -1017,3 +1017,11 @@ export function setPatternData(context is Context, id is Id, patternType is Reco
         "patternDirections" : directions
     });
 }
+
+/**
+ * True if the value is undefined and creates a button parameter.
+ */
+export predicate isButton(value)
+{
+    value is undefined;
+}
