@@ -1,36 +1,36 @@
-FeatureScript 2399; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present PTC Inc.
 
-export import(path : "onshape/std/chamfertype.gen.fs", version : "2399.0");
-export import(path : "onshape/std/hole.fs", version : "2399.0");
-export import(path : "onshape/std/holeAttribute.fs", version : "2399.0");
-export import(path : "onshape/std/holesectionfacetype.gen.fs", version : "2399.0");
-export import(path : "onshape/std/moveFace.fs", version : "2399.0");
-export import(path : "onshape/std/query.fs", version : "2399.0");
-export import(path : "onshape/std/tool.fs", version : "2399.0");
+export import(path : "onshape/std/chamfertype.gen.fs", version : "");
+export import(path : "onshape/std/hole.fs", version : "");
+export import(path : "onshape/std/holeAttribute.fs", version : "");
+export import(path : "onshape/std/holesectionfacetype.gen.fs", version : "");
+export import(path : "onshape/std/moveFace.fs", version : "");
+export import(path : "onshape/std/query.fs", version : "");
+export import(path : "onshape/std/tool.fs", version : "");
 
 // Features using manipulators must export manipulator.fs.
-export import(path : "onshape/std/manipulator.fs", version : "2399.0");
+export import(path : "onshape/std/manipulator.fs", version : "");
 
 // Imports used internally
-import(path : "onshape/std/attributes.fs", version : "2399.0");
-import(path : "onshape/std/containers.fs", version : "2399.0");
-import(path : "onshape/std/string.fs", version : "2399.0");
-import(path : "onshape/std/debug.fs", version : "2399.0");
-import(path : "onshape/std/coordSystem.fs", version : "2399.0");
-import(path : "onshape/std/curveGeometry.fs", version : "2399.0");
-import(path : "onshape/std/evaluate.fs", version : "2399.0");
-import(path : "onshape/std/feature.fs", version : "2399.0");
-import(path : "onshape/std/lookupTablePath.fs", version : "2399.0");
-import(path : "onshape/std/holetables.gen.fs", version : "2399.0");
-import(path : "onshape/std/primitives.fs", version : "2399.0");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "2399.0");
-import(path : "onshape/std/splitpart.fs", version : "2399.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "2399.0");
-import(path : "onshape/std/valueBounds.fs", version : "2399.0");
-import(path : "onshape/std/vector.fs", version : "2399.0");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/string.fs", version : "");
+import(path : "onshape/std/debug.fs", version : "");
+import(path : "onshape/std/coordSystem.fs", version : "");
+import(path : "onshape/std/curveGeometry.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/lookupTablePath.fs", version : "");
+import(path : "onshape/std/holetables.gen.fs", version : "");
+import(path : "onshape/std/primitives.fs", version : "");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "");
+import(path : "onshape/std/splitpart.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
+import(path : "onshape/std/valueBounds.fs", version : "");
+import(path : "onshape/std/vector.fs", version : "");
 
 
 
