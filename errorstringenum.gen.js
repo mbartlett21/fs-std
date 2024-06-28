@@ -1,4 +1,4 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 2399; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present PTC Inc.
@@ -3016,6 +3016,13 @@ export enum ErrorStringEnum
     /* Some bodies were removed from export. */
     SOME_BODIES_WERE_REMOVED_FROM_EXPORT,
     /* All bodies were removed from export. */
-    ALL_BODIES_WERE_REMOVED_FROM_EXPORT
+    ALL_BODIES_WERE_REMOVED_FROM_EXPORT,
+    /* No configuration parameters found. */
+    CONFIG_NO_PARAMETERS_FOUND,
+    CONFIG_INCORRECT_PARAMETER_TYPE,
+    /* Too many configuration parameters found. */
+    CONFIG_TOO_MANY_PARAMETERS,
+    /* Configuration parameters adjusted for repair view. */
+    REFERENCE_REPAIR_MISSING_CONFIGURATION
 }
 
