@@ -3,22 +3,13 @@ FeatureScript 9999; /* Automatically generated version */
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
-/* Automatically generated file -- DO NOT EDIT */
-
-/** @internal */
-export enum SketchToolType
+/**
+ *  Types of flat operations supported by [SMFlatOp]
+ **/
+export enum FlatOperationType
 {
-    NONE,
-    EXTEND,
-    MIRROR,
-    FILLET,
-    OFFSET,
-    USE,
-    TRIM,
-    PATTERN,
-    SLOT,
-    SPLIT,
-    SECTION,
-    CHAMFER
+    annotation { "Name" : "Add" }
+    ADD,
+    annotation { "Name" : "Remove" }
+    REMOVE
 }
-
