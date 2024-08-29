@@ -18,6 +18,7 @@ export enum SketchToolType
     PATTERN,
     SLOT,
     SPLIT,
-    SECTION
+    SECTION,
+    CHAMFER
 }
 
