@@ -5,20 +5,14 @@ FeatureScript 2473; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** @internal */
-export enum SketchToolType
+/**
+ * Used to specify the type of a feature dimension, as in setDimensionedEntities.
+ */
+export enum FeatureDimensionType
 {
-    NONE,
-    EXTEND,
-    MIRROR,
-    FILLET,
-    OFFSET,
-    USE,
-    TRIM,
-    PATTERN,
-    SLOT,
-    SPLIT,
-    SECTION,
-    CHAMFER
+    DISTANCE,
+    ANGLE,
+    RADIUS,
+    DIAMETER
 }
 
