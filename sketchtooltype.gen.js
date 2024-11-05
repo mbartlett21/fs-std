@@ -1,4 +1,4 @@
-FeatureScript 9999;
+FeatureScript 146;
 /* Automatically generated file -- DO NOT EDIT */
 
 export enum SketchToolType
@@ -10,6 +10,8 @@ export enum SketchToolType
     OFFSET,
     USE,
     TRIM,
-    PATTERN
+    PATTERN,
+    SLOT,
+    SPLIT
 }
 
