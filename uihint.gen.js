@@ -1,4 +1,4 @@
-FeatureScript 9999;
+FeatureScript 146;
 /* Automatically generated file -- DO NOT EDIT */
 
 export enum UIHint
@@ -7,6 +7,8 @@ export enum UIHint
     ALWAYS_HIDDEN,
     SHOW_CREATE_SELECTION,
     CONTROL_VISIBILITY,
-    NO_PREVIEW_PROVIDED
+    NO_PREVIEW_PROVIDED,
+    REMEMBER_PREVIOUS_VALUE,
+    DISPLAY_SHORT
 }
 
