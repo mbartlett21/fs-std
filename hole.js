@@ -1,4 +1,4 @@
-FeatureScript 236; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 import(path : "onshape/std/boolean.fs", version : "");
 import(path : "onshape/std/boundingtype.gen.fs", version : "");
 import(path : "onshape/std/box.fs", version : "");

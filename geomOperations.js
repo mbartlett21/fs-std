@@ -1,4 +1,4 @@
-FeatureScript 236; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 /**
  * Operations are the basic modeling primitives of FeatureScript. Operations can do extrusion, filleting, transforms,
  * etc. An operation takes a context, an id, and a definition and modifies the context in accordance to the
