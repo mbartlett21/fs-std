@@ -1,4 +1,4 @@
-FeatureScript 244; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 //Vector math
 import(path : "onshape/std/containers.fs", version : "");
 import(path : "onshape/std/math.fs", version : "");
