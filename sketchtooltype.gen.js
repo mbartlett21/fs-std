@@ -8,6 +8,7 @@ export enum SketchToolType
     FILLET,
     OFFSET,
     USE,
-    TRIM
+    TRIM,
+    PATTERN
 }
 
