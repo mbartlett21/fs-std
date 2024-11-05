@@ -1,4 +1,4 @@
-FeatureScript 225; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // Most patterns use these
 export import(path : "onshape/std/boolean.fs", version : "");
 export import(path : "onshape/std/containers.fs", version : "");
