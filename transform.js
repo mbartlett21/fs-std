@@ -1,3 +1,4 @@
+FeatureScript 9999; /* Automatically generated version */
 export import(path:"onshape/std/matrix.fs", version : "");
 export import(path:"onshape/std/vector.fs", version : "");
 export import(path:"onshape/std/units.fs", version : "");
