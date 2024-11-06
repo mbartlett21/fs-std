@@ -7,14 +7,17 @@ FeatureScript 543; /* Automatically generated version */
 
 /**
  * @internal.
+ * Defines the value field control types used for standard content.
  */
-export enum SMJointStyle
+export enum StandardContentValueFieldType
 {
-    annotation {"Name" : "Edge Joint"}
-    EDGE,
-    annotation {"Name" : "Butt Joint - Primary"}
-    BUTT,
-    annotation {"Name" : "Butt Joint - Secondary"}
-    BUTT2
+    annotation {"Name" : "Dropdown menu"}
+    DROPLIST,
+    annotation {"Name" : "Edit box"}
+    EDIT,
+    annotation {"Name" : "Static text"}
+    STATIC,
+    annotation {"Name" : "Check box"}
+    CHECKBOX
 }
 
