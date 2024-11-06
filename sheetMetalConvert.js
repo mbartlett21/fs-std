@@ -1,4 +1,4 @@
-FeatureScript 392; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
@@ -10,19 +10,19 @@ FeatureScript 392; /* Automatically generated version */
  */
 
 
-import(path : "onshape/std/query.fs", version : "392.0");
-import(path : "onshape/std/feature.fs", version : "392.0");
-import(path : "onshape/std/valueBounds.fs", version : "392.0");
-import(path : "onshape/std/geomOperations.fs", version : "392.0");
-import(path : "onshape/std/containers.fs", version : "392.0");
-import(path : "onshape/std/sheetMetalAttribute.fs", version : "392.0");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "392.0");
-import(path : "onshape/std/attributes.fs", version : "392.0");
-import(path : "onshape/std/evaluate.fs", version : "392.0");
-import(path : "onshape/std/surfaceGeometry.fs", version : "392.0");
-import(path : "onshape/std/vector.fs",  version : "392.0");
-import(path : "onshape/std/boundingtype.gen.fs", version : "392.0");
-import(path : "onshape/std/string.fs", version : "392.0");
+import(path : "onshape/std/query.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/valueBounds.fs", version : "");
+import(path : "onshape/std/geomOperations.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/surfaceGeometry.fs", version : "");
+import(path : "onshape/std/vector.fs",  version : "");
+import(path : "onshape/std/boundingtype.gen.fs", version : "");
+import(path : "onshape/std/string.fs", version : "");
 
 /**
  * @internal
