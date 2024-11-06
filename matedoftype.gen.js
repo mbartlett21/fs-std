@@ -12,6 +12,9 @@ FeatureScript 9999; /* Automatically generated version */
  * @value Ty : Translation along the Y axis.
  * @value Tz : Translation along the Z axis.
  * @value Rz : Rotation around the Z axis.
+ * @value Rz : Rotation around the Z axis.
+ * @value Ryp : Rotation around the transformed Y axis from previous transform sequence.
+ * @value Rzp : Rotation around the transformed z axis from previous transform sequence .
  */
 export enum MateDOFType
 {
@@ -22,6 +25,10 @@ export enum MateDOFType
     annotation {"Name" : "Translational Z"}
     Tz,
     annotation {"Name" : "Rotational Z"}
-    Rz
+    Rz,
+    annotation {"Name" : "Rotational Y'"}
+    Ryp,
+    annotation {"Name" : "Rotational Z'"}
+    Rzp
 }
 
