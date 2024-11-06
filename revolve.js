@@ -18,7 +18,7 @@ import(path : "onshape/std/mathUtils.fs", version : "");
 import(path : "onshape/std/valueBounds.fs", version : "");
 
 /**
- * TODO: description
+ * Specifies how a revolve's end condition should be defined.
  */
 export enum RevolveType
 {
@@ -33,15 +33,8 @@ export enum RevolveType
 }
 
 /**
- * Create a revolve, as used in Onshape's revolve feature.
- *
- * Internally, performs an `opRevolve`, followed by an `opBoolean`. For simple revolves, prefer using
+ * Feature performing an `opRevolve`, followed by an `opBoolean`. For simple revolves, prefer using
  * `opRevolve` directly.
- *
- * @param id : @autocomplete `id + "revolve1"`
- * @param definition {{
- *      @field TODO
- * }}
  */
 annotation { "Feature Type Name" : "Revolve",
              "Manipulator Change Function" : "revolveManipulatorChange",
@@ -276,14 +269,8 @@ function addRevolveManipulator(context is Context, id is Id, revolveDefinition i
 }
 
 /**
- * TODO: description
- * @param context
- * @param revolveDefinition {{
- *      @field TODO
- * }}
- * @param newManipulators {{
- *      @field TODO
- * }}
+ * @internal
+ * Manipulator change function for `revolve` feature.
  */
 export function revolveManipulatorChange(context is Context, revolveDefinition is map, newManipulators is map) returns map
 {
@@ -315,7 +302,8 @@ export function revolveManipulatorChange(context is Context, revolveDefinition i
 
 
 /**
- * implements heuristics for revolve feature
+ * @internal
+ * Editing logic function for `revolve` feature.
  */
 export function revolveEditLogic(context is Context, id is Id, oldDefinition is map, definition is map,
     specifiedParameters is map, hiddenBodies is Query) returns map

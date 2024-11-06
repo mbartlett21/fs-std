@@ -80,6 +80,7 @@ export function booleanStepEditLogic(context is Context, id is Id, oldDefinition
 }
 
 /**
+ * @internal
  * Used by features using boolean heuristics
  */
 export function canSetBooleanFlip (oldDefinition is map, definition is map, specifiedParameters is map) returns boolean

@@ -28,12 +28,7 @@ export const MOVE_FACE_TRANSLATE_BOUNDS = NONNEGATIVE_ZERO_DEFAULT_LENGTH_BOUNDS
 export const MOVE_FACE_ROTATION_BOUNDS = ANGLE_360_ZERO_DEFAULT_BOUNDS;
 
 /**
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature performing an `opMoveFace`.
  */
 annotation { "Feature Type Name" : "Move face",
              "Manipulator Change Function" : "moveFaceManipulatorChange",
@@ -212,14 +207,8 @@ function addRotateManipulator(context is Context, id is Id, axis is Line, facePl
 }
 
 /**
- * TODO: description
- * @param context
- * @param moveFaceDefinition {{
- *      @field TODO
- * }}
- * @param newManipulators {{
- *      @field TODO
- * }}
+ * @internal
+ * Manipulator change function for `moveFace`.
  */
 export function moveFaceManipulatorChange(context is Context, moveFaceDefinition is map, newManipulators is map) returns map
 precondition

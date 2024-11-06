@@ -31,12 +31,8 @@ const THICKEN_BOUNDS =
 } as LengthBoundSpec;
 
 /**
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature performing an `opThicken`, followed by an `opBoolean`. For simple thickens, prefer using
+ * `opThicken` directly.
  */
 annotation { "Feature Type Name" : "Thicken",
              "Filter Selector" : "allparts",

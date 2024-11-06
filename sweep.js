@@ -15,7 +15,8 @@ import(path : "onshape/std/evaluate.fs", version : "");
 import(path : "onshape/std/feature.fs", version : "");
 
 /**
- * @see `opSweep`.
+ * Feature performing an `opSweep`, followed by an `opBoolean`. For simple sweeps, prefer using
+ * `opSweep` directly.
  */
 annotation { "Feature Type Name" : "Sweep",
              "Filter Selector" : "allparts",
@@ -95,7 +96,8 @@ export const sweep = defineFeature(function(context is Context, id is Id, defini
 
 
 /**
- * implements heuristics for sweep feature
+ * @internal
+ * Editing logic function for sweep feature.
  */
 export function sweepEditLogic(context is Context, id is Id, oldDefinition is map, definition is map,
     specifiedParameters is map, hiddenBodies is Query) returns map

@@ -143,12 +143,14 @@ export function norm(m is Matrix) returns number
 
 /**
  * Compute the singular value decomposition of a matrix,
- * m = usv where s is a diagonal matrix of eigenvalues.
- * @param m{Matrix}
+ * i.e. `s`, `u`, and `v`, where `m == u * s * v` and s is a
+ * diagonal matrix of singular values.
+ *
+ * @param m {Matrix}
  * @return {{
- *     @field u{Matrix} : A unitary matrix
- *     @field s{Matrix} : A diagonal matrix
- *     @field v{Matrix} : A unitary matrix
+ *     @field u {Matrix} : A unitary matrix
+ *     @field s {Matrix} : A diagonal matrix
+ *     @field v {Matrix} : A unitary matrix
  * }}
  */
 export function svd(m is Matrix) returns map
@@ -159,7 +161,6 @@ export function svd(m is Matrix) returns map
 
 /**
  * Return the determinant of the matrix.
- *
  */
 export function determinant(m is Matrix) returns number
 {

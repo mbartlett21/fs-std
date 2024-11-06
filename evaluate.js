@@ -10,12 +10,12 @@ FeatureScript 9999; /* Automatically generated version */
  * may also throw errors if a query fails to evaluate or the input is otherwise invalid.
  */
 import(path : "onshape/std/box.fs", version : "");
-import(path : "onshape/std/clashtype.gen.fs", version : "");
+export import(path : "onshape/std/clashtype.gen.fs", version : "");
 import(path : "onshape/std/containers.fs", version : "");
 import(path : "onshape/std/context.fs", version : "");
 import(path : "onshape/std/coordSystem.fs", version : "");
 import(path : "onshape/std/curveGeometry.fs", version : "");
-import(path : "onshape/std/edgeconvexitytype.gen.fs", version : "");
+export import(path : "onshape/std/edgeconvexitytype.gen.fs", version : "");
 import(path : "onshape/std/mathUtils.fs", version : "");
 import(path : "onshape/std/query.fs", version : "");
 import(path : "onshape/std/string.fs", version : "");
@@ -105,7 +105,7 @@ export function evEdgeTangentLine(context is Context, arg is map) returns Line
  *             because the result will be identical.
  *          @optional
  * }}
- * @returns {array} : array of `Line`
+ * @returns {array} : An array of `Line`s.
  */
 export function evEdgeTangentLines(context is Context, arg is map) returns array
 precondition
@@ -543,13 +543,13 @@ export function evDistance(context is Context, arg is map) returns DistanceResul
 }
 
 /**
-* For Onshape internal use
-*/
+ * @internal
+ */
 export type OffsetGroup typecheck isOffsetGroup;
 
 /**
-* For Onshape internal use
-*/
+ * @internal
+ */
 export predicate isOffsetGroup(value)
 {
     value is map;
@@ -561,9 +561,9 @@ export predicate isOffsetGroup(value)
 }
 
 /**
-* For Onshape internal use
-* Detects pairs of offset faces in the bodies
-*/
+ * @internal
+ * Detects pairs of offset faces in the bodies
+ */
 export function evOffsetDetection(context is Context, definition is map) returns array
 precondition
 {

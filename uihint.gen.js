@@ -5,7 +5,9 @@ FeatureScript 9999; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** TODO: documentation */
+/**
+ * List of available UI Hints, which control how a parameter input is displayed in the feature dialog.
+ */
 export enum UIHint
 {
     OPPOSITE_DIRECTION,

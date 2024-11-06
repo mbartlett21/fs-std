@@ -19,12 +19,7 @@ import(path : "onshape/std/vector.fs", version : "");
 import(path : "onshape/std/string.fs", version : "");
 
 /**
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature performing an `opReplaceFace`.
  */
 annotation { "Feature Type Name" : "Replace face", "Manipulator Change Function" : "replaceFaceManipulatorChange", "Filter Selector" : "allparts", "Editing Logic Function" : "replaceFaceEditLogic" }
 export const replaceFace = defineFeature(function(context is Context, id is Id, definition is map)
@@ -94,14 +89,8 @@ function computeFacePlane(context is Context, id is Id, entitiesQuery is Query)
 }
 
 /**
- * TODO: description
- * @param context
- * @param replaceFaceDefinition {{
- *      @field TODO
- * }}
- * @param newManipulators {{
- *      @field TODO
- * }}
+ * @internal
+ * Manipulator change function for `replaceFace`.
  */
 export function replaceFaceManipulatorChange(context is Context, replaceFaceDefinition is map, newManipulators is map) returns map
 {
@@ -115,7 +104,8 @@ export function replaceFaceManipulatorChange(context is Context, replaceFaceDefi
 }
 
 /**
- * implements heuristics for replace face feature
+ * @internal
+ * Editing logic funtion for `replaceFace`.
  */
 export function replaceFaceEditLogic(context is Context, id is Id, oldDefinition is map, definition is map,
     isCreating is boolean, specifiedParameters is map, hiddenBodies is Query) returns map

@@ -12,7 +12,7 @@ import(path : "onshape/std/feature.fs", version : "");
 import(path : "onshape/std/valueBounds.fs", version : "");
 
 /**
- * TODO: description
+ * Defines the action of a `modifyFillet` feature.
  */
 export enum ModifyFilletType
 {
@@ -23,12 +23,7 @@ export enum ModifyFilletType
 }
 
 /**
- * TODO: description
- * @param context
- * @param id : @eg `id + TODO`
- * @param definition {{
- *      @field TODO
- * }}
+ * Feature performing an `opModifyFillet`.
  */
 annotation { "Feature Type Name" : "Modify fillet", "Filter Selector" : "allparts", "Editing Logic Function" : "modifyFilletLogic" }
 export const modifyFillet = defineFeature(function(context is Context, id is Id, definition is map)
@@ -55,6 +50,7 @@ export const modifyFillet = defineFeature(function(context is Context, id is Id,
     }, { reFillet : false });
 
 /**
+ * @internal
  * Editing logic function for automatically setting the radius of the fillet.
  */
 export function modifyFilletLogic(context is Context, id is Id, oldDefinition is map, definition is map, specified is map) returns map
