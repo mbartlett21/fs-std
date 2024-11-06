@@ -5,14 +5,10 @@ FeatureScript 432; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * Specifies how a mate connector origin is defined, and how many entities define it.
- */
-export enum OriginCreationType
+/** @internal */
+export enum ExtendSheetBoundingType
 {
-    annotation {"Name" : "On entity"}
-    ON_ENTITY,
-    annotation {"Name" : "Between entities"}
-    BETWEEN_ENTITIES
+    EXTEND_BY_DISTANCE,
+    EXTEND_TO_SURFACE
 }
 
