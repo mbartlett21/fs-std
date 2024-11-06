@@ -7,14 +7,15 @@ FeatureScript 9999; /* Automatically generated version */
 
 /**
  * @internal.
+ * Types of bend relief in sheet metal parts.
  */
-export enum SMJointStyle
+export enum SMBendReliefStyle
 {
-    annotation {"Name" : "Edge Joint"}
-    EDGE,
-    annotation {"Name" : "Butt Joint - Primary"}
-    BUTT,
-    annotation {"Name" : "Butt Joint - Secondary"}
-    BUTT2
+    annotation {"Name" : "Rectangle"}
+    RECTANGLE,
+    annotation {"Name" : "Obround"}
+    OBROUND,
+    annotation {"Name" : "Tear"}
+    TEAR
 }
 
