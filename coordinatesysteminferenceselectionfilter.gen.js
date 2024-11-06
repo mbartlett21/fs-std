@@ -6,13 +6,11 @@ FeatureScript 392; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * @internal.
+ * Specifies the filter type when requesting inference mate connectors.
  */
-export enum SMJointStyle
+export enum CoordinateSystemInferenceSelectionFilter
 {
-    annotation {"Name" : "Edge Joint"}
-    EDGE,
-    annotation {"Name" : "Butt Joint"}
-    BUTT
+    NONE,
+    HOLE_GEOMETRY
 }
 
