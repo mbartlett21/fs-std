@@ -6,13 +6,16 @@ FeatureScript 477; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * The subset of `GeometryType` which applies to 1-dimensional entities.
+ * @internal.
+ * Types of bend relief in sheet metal parts.
  */
-export enum CurveType
+export enum SMBendReliefStyle
 {
-    CIRCLE,
-    LINE,
-    OTHER,
-    ELLIPSE
+    annotation {"Name" : "Rectangle"}
+    RECTANGLE,
+    annotation {"Name" : "Obround"}
+    OBROUND,
+    annotation {"Name" : "Tear"}
+    TEAR
 }
 

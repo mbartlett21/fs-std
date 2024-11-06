@@ -1,4 +1,4 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 477; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
@@ -7,19 +7,20 @@ FeatureScript 9999; /* Automatically generated version */
 
 /**
  * @internal.
+ * Types of relief that are applicable to either corner or bend relief (or both) in sheetmetal parts.
  */
-export enum SMCornerStyle
+export enum SMReliefStyle
 {
-    annotation {"Name" : "Square"}
-    SQUARE,
+    annotation {"Name" : "Rectangle"}
+    RECTANGLE,
     annotation {"Name" : "Round"}
     ROUND,
-    annotation {"Name" : "Tear"}
-    TEAR,
-    annotation {"Name" : "Arc"}
-    ARC,
+    annotation {"Name" : "Closed"}
+    CLOSED,
     annotation {"Name" : "Obround"}
     OBROUND,
+    annotation {"Name" : "Tear"}
+    TEAR,
     annotation {"Name" : "Simple"}
     SIMPLE
 }

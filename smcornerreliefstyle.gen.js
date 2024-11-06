@@ -6,13 +6,18 @@ FeatureScript 477; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * The subset of `GeometryType` which applies to 1-dimensional entities.
+ * @internal.
+ * Types of corner relief in sheet metal parts.
  */
-export enum CurveType
+export enum SMCornerReliefStyle
 {
-    CIRCLE,
-    LINE,
-    OTHER,
-    ELLIPSE
+    annotation {"Name" : "Rectangle"}
+    RECTANGLE,
+    annotation {"Name" : "Round"}
+    ROUND,
+    annotation {"Name" : "Closed"}
+    CLOSED,
+    annotation {"Name" : "Simple"}
+    SIMPLE
 }
 
