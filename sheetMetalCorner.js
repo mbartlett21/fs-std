@@ -1,4 +1,4 @@
-FeatureScript 464; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
@@ -9,15 +9,15 @@ FeatureScript 464; /* Automatically generated version */
  ******************************************
  */
 
-export import(path : "onshape/std/smcornerstyle.gen.fs", version : "464.0");
+export import(path : "onshape/std/smcornerstyle.gen.fs", version : "");
 
-import(path : "onshape/std/attributes.fs", version : "464.0");
-import(path : "onshape/std/containers.fs", version : "464.0");
-import(path : "onshape/std/feature.fs", version : "464.0");
-import(path : "onshape/std/sheetMetalAttribute.fs", version : "464.0");
-import(path : "onshape/std/sheetMetalStart.fs", version : "464.0");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "464.0");
-import(path : "onshape/std/valueBounds.fs", version : "464.0");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
+import(path : "onshape/std/sheetMetalStart.fs", version : "");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "");
+import(path : "onshape/std/valueBounds.fs", version : "");
 
 /**
  * @internal
