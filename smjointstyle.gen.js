@@ -5,14 +5,14 @@ FeatureScript 369; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** Specifies an axis for rotation. */
-export enum RotationType
+/**
+ * @internal.
+ */
+export enum SMJointStyle
 {
-    annotation {"Name" : "Rotate about X"}
-    ABOUT_X,
-    annotation {"Name" : "Rotate about Y"}
-    ABOUT_Y,
-    annotation {"Name" : "Rotate about Z"}
-    ABOUT_Z
+    annotation {"Name" : "Edge Joint"}
+    EDGE,
+    annotation {"Name" : "Butt Joint"}
+    BUTT
 }
 
