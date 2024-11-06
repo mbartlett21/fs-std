@@ -1,21 +1,21 @@
-FeatureScript 559; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
 
-export import(path : "onshape/std/smcornerbreakstyle.gen.fs", version : "559.0");
-export import(path : "onshape/std/smreliefstyle.gen.fs", version : "559.0");
-export import(path : "onshape/std/smjointtype.gen.fs", version : "559.0");
-export import(path : "onshape/std/smjointstyle.gen.fs", version : "559.0");
-export import(path : "onshape/std/smobjecttype.gen.fs", version : "559.0");
-export import(path : "onshape/std/context.fs", version : "559.0");
-export import(path : "onshape/std/query.fs", version : "559.0");
-import(path : "onshape/std/attributes.fs", version : "559.0");
-import(path : "onshape/std/containers.fs", version : "559.0");
-import(path : "onshape/std/units.fs", version : "559.0");
-import(path : "onshape/std/feature.fs", version : "559.0");
-import(path : "onshape/std/string.fs", version : "559.0");
+export import(path : "onshape/std/smcornerbreakstyle.gen.fs", version : "");
+export import(path : "onshape/std/smreliefstyle.gen.fs", version : "");
+export import(path : "onshape/std/smjointtype.gen.fs", version : "");
+export import(path : "onshape/std/smjointstyle.gen.fs", version : "");
+export import(path : "onshape/std/smobjecttype.gen.fs", version : "");
+export import(path : "onshape/std/context.fs", version : "");
+export import(path : "onshape/std/query.fs", version : "");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/units.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/string.fs", version : "");
 
 /**
  * Sheet metal object definition attribute type.
