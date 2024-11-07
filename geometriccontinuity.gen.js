@@ -5,16 +5,16 @@ FeatureScript 626; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** See [opChamfer]. */
-export enum ChamferType
+/**
+ * Specifies the level of geometric continuity.
+ */
+export enum GeometricContinuity
 {
-    annotation {"Name" : "Equal distance"}
-    EQUAL_OFFSETS,
-    annotation {"Name" : "Two distances"}
-    TWO_OFFSETS,
-    annotation {"Name" : "Distance and angle"}
-    OFFSET_ANGLE,
-    annotation {"Hidden" : true}
-    RAW_OFFSET
+    annotation {"Name" : "Position"}
+    G0,
+    annotation {"Name" : "Tangency"}
+    G1,
+    annotation {"Name" : "Curvature"}
+    G2
 }
 
