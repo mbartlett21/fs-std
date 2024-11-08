@@ -8,11 +8,16 @@ FeatureScript 9999; /* Automatically generated version */
 /**
  * @internal.
  * Types of bend relief in sheet metal parts.
- */
+ * Is only ever used in FeatureScript and no built-ins work with it.
+ * See [SMReliefStyle] for the enum used in built-ins */
 export enum SMBendReliefStyle
 {
+    annotation {"Name" : "Sized rectangle"}
+    SIZED_RECTANGLE,
     annotation {"Name" : "Rectangle"}
     RECTANGLE,
+    annotation {"Name" : "Sized obround"}
+    SIZED_OBROUND,
     annotation {"Name" : "Obround"}
     OBROUND,
     annotation {"Name" : "Tear"}
