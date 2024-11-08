@@ -13,6 +13,8 @@ export enum SMJointType
     annotation {"Name" : "Bend"}
     BEND,
     annotation {"Name" : "Rip"}
-    RIP
+    RIP,
+    annotation {"Name" : "Tangent"}
+    TANGENT
 }
 
