@@ -6,13 +6,22 @@ FeatureScript 736; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * Specifies how a constraint between lines or axes (such as parallel or
- * coincident) should align the two constrained axes.
+ * Defines the type of property that is being applied to a part.
+ * @value CUSTOM : Not yet supported
  */
-export enum DimensionAlignment
+export enum PropertyType
 {
-    UNSPECIFIED,
-    ALIGNED,
-    ANTI_ALIGNED
+    NAME,
+    MATERIAL,
+    APPEARANCE,
+    DESCRIPTION,
+    PART_NUMBER,
+    VENDOR,
+    PROJECT,
+    PRODUCT_LINE,
+    TITLE_1,
+    TITLE_2,
+    TITLE_3,
+    CUSTOM
 }
 
