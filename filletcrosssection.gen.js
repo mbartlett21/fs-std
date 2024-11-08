@@ -6,13 +6,15 @@ FeatureScript 660; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * The subset of `GeometryType` which applies to 1-dimensional entities.
+ * Specifies the cross section for a fillet operation.
  */
-export enum CurveType
+export enum FilletCrossSection
 {
-    CIRCLE,
-    LINE,
-    OTHER,
-    ELLIPSE
+    annotation {"Name" : "Circular"}
+    CIRCULAR,
+    annotation {"Name" : "Conic"}
+    CONIC,
+    annotation {"Name" : "Curvature"}
+    CURVATURE
 }
 
