@@ -1,17 +1,17 @@
-FeatureScript 729; /* Automatically generated version */
+FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present Onshape Inc.
 
 // Under development, internal use only
 // Imports used in interface
-export import(path : "onshape/std/query.fs", version : "729.0");
+export import(path : "onshape/std/query.fs", version : "");
 
-import(path : "onshape/std/attributes.fs", version : "729.0");
-import(path : "onshape/std/booleanoperationtype.gen.fs", version : "729.0");
-import(path : "onshape/std/feature.fs", version : "729.0");
-import(path : "onshape/std/sheetMetalAttribute.fs", version : "729.0");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "729.0");
+import(path : "onshape/std/attributes.fs", version : "");
+import(path : "onshape/std/booleanoperationtype.gen.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "");
 
 /**
  * @internal
