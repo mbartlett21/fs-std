@@ -1,12 +1,12 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 2522; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present PTC Inc.
 
-import(path : "onshape/std/common.fs", version : "");
-export import(path : "onshape/std/movecurveboundarytype.gen.fs", version : "");
-export import(path : "onshape/std/curveextensionendcondition.gen.fs", version : "");
-export import(path : "onshape/std/curveextensionshape.gen.fs", version : "");
+import(path : "onshape/std/common.fs", version : "2522.0");
+export import(path : "onshape/std/movecurveboundarytype.gen.fs", version : "2522.0");
+export import(path : "onshape/std/curveextensionendcondition.gen.fs", version : "2522.0");
+export import(path : "onshape/std/curveextensionshape.gen.fs", version : "2522.0");
 
 /**
  * Extend or trim a curve. This is a thin wrapper around [opMoveCurveBoundary].
