@@ -42,6 +42,7 @@ export enum ConstraintType
     INTERSECTED,
     RHO,
     EQUAL_CURVATURE,
-    BEZIER_DEGREE
+    BEZIER_DEGREE,
+    FREEZE
 }
 
