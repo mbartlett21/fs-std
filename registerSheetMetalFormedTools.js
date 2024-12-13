@@ -1,17 +1,17 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 2543; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present PTC Inc.
 
 // Imports used internally
-import(path : "onshape/std/containers.fs", version : "");
-import(path : "onshape/std/evaluate.fs", version : "");
-import(path : "onshape/std/feature.fs", version : "");
-import(path : "onshape/std/formedUtils.fs", version : "");
-import(path : "onshape/std/registerSheetMetalBooleanTools.fs", version : "");
-import(path : "onshape/std/sheetMetalAttribute.fs", version : "");
-import(path : "onshape/std/sheetMetalUtils.fs", version : "");
-import(path : "onshape/std/vector.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "2543.0");
+import(path : "onshape/std/evaluate.fs", version : "2543.0");
+import(path : "onshape/std/feature.fs", version : "2543.0");
+import(path : "onshape/std/formedUtils.fs", version : "2543.0");
+import(path : "onshape/std/registerSheetMetalBooleanTools.fs", version : "2543.0");
+import(path : "onshape/std/sheetMetalAttribute.fs", version : "2543.0");
+import(path : "onshape/std/sheetMetalUtils.fs", version : "2543.0");
+import(path : "onshape/std/vector.fs", version : "2543.0");
 
 /**
  * @internal
