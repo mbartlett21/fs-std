@@ -6,10 +6,12 @@ FeatureScript 2559; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /** @internal */
-export enum DimensionHalfSpace
+export enum GTolConstraintType
 {
-    UNSPECIFIED,
-    LEFT,
-    RIGHT
+    TRUE_POSITION,
+    PARALLELISM,
+    PERPENDICULARITY,
+    PROFILE_SURFACE,
+    TOTAL_RUNOUT
 }
 
