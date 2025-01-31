@@ -1,12 +1,12 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 2581; /* Automatically generated version */
 // Imports used in interface
-export import(path : "onshape/std/facecurvecreationtype.gen.fs", version : "");
+export import(path : "onshape/std/facecurvecreationtype.gen.fs", version : "2581.0");
 
 // Imports used internally
-import(path : "onshape/std/feature.fs", version : "");
-import(path : "onshape/std/valueBounds.fs", version : "");
-import(path : "onshape/std/evaluate.fs", version : "");
-import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/feature.fs", version : "2581.0");
+import(path : "onshape/std/valueBounds.fs", version : "2581.0");
+import(path : "onshape/std/evaluate.fs", version : "2581.0");
+import(path : "onshape/std/containers.fs", version : "2581.0");
 
 /** @internal */
 export enum DirectionType
