@@ -6,12 +6,14 @@ FeatureScript 9999; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /** @internal */
-export enum GTolConstraintType
+export enum WeldJointType
 {
-    TRUE_POSITION,
-    PARALLELISM,
-    PERPENDICULARITY,
-    PROFILE_SURFACE,
-    TOTAL_RUNOUT
+    NONE,
+    DOUBLE_V_GROOVE,
+    DOUBLE_BEVEL_GROOVE,
+    DOUBLE_U_GROOVE,
+    DOUBLE_J_GROOVE,
+    DOUBLE_FLARE_V,
+    DOUBLE_FLARE_BEVEL
 }
 

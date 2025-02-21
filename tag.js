@@ -1,7 +1,7 @@
 FeatureScript 9999; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
-// Copyright (c) 2013-Present PTC Inc.
+// Copyright (c) 2013-Present Onshape Inc.
 
 import(path : "onshape/std/attributes.fs", version : "");
 import(path : "onshape/std/containers.fs", version : "");
@@ -199,6 +199,15 @@ function doTagForm(context is Context, topLevelId is Id, definition is map)
         const originMateConnectorId = topLevelId + "originMateConnector";
         opMateConnector(context, originMateConnectorId, { "coordSystem" : WORLD_COORD_SYSTEM });
         cSysMateConnector = qCreatedBy(originMateConnectorId, EntityType.BODY)->qBodyType(BodyType.MATE_CONNECTOR);
+    }
+    if (isAtVersionOrLater(context, FeatureScriptVersionNumber.V2591_WARN_FORM_ORIGIN_OUTSIDE_TOOLS_BBOX))
+    {
+        const toolsBoundingBox = evBox3d(context, { "topology" : qUnion(definition.positivePart, definition.negativePart), "tight" : false });
+        const formCSys = evMateConnector(context, { "mateConnector" : cSysMateConnector });
+        if (!insideBox3d(formCSys.origin, toolsBoundingBox))
+        {
+            reportFeatureWarning(context, topLevelId, ErrorStringEnum.FORMED_TAG_FORM_ORIGIN_OUTSIDE_TOOLS_BBOX, ["cSysMateConnector"]);
+        }
     }
     setFormAttribute(context, qOwnerBody(cSysMateConnector), FORM_BODY_CSYS_MATE_CONNECTOR);
 }
