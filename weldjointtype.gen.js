@@ -5,14 +5,15 @@ FeatureScript 2599; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * @internal.
- */
-export enum SMObjectType
+/** @internal */
+export enum WeldJointType
 {
-    MODEL,
-    WALL,
-    JOINT,
-    CORNER
+    NONE,
+    DOUBLE_V_GROOVE,
+    DOUBLE_BEVEL_GROOVE,
+    DOUBLE_U_GROOVE,
+    DOUBLE_J_GROOVE,
+    DOUBLE_FLARE_V,
+    DOUBLE_FLARE_BEVEL
 }
 
