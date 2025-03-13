@@ -5,10 +5,21 @@ FeatureScript 2615; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** @internal */
-export enum ImageMappingType
+/**
+ * Specifies the type of manipulator being dragged.
+ */
+export enum ManipulatorDragTypeEnum
 {
-    PLANAR,
-    CYLINDRICAL
+    NONE,
+    LINEAR_X,
+    LINEAR_Y,
+    LINEAR_Z,
+    PLANAR_XY,
+    PLANAR_XZ,
+    PLANAR_YZ,
+    ROTATION_X,
+    ROTATION_Y,
+    ROTATION_Z,
+    REPOSITION
 }
 
