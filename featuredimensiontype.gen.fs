@@ -13,6 +13,7 @@ export enum FeatureDimensionType
     DISTANCE,
     ANGLE,
     RADIUS,
-    DIAMETER
+    DIAMETER,
+    AXIS_DISTANCE
 }
 
