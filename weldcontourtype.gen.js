@@ -5,18 +5,12 @@ FeatureScript 2695; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/**
- * Specifies how to trim the created blend.
- */
-export enum FaceBlendTrimType
+/** @internal */
+export enum WeldContourType
 {
-    annotation {"Name" : "Walls"}
-    WALLS,
-    annotation {"Name" : "Short"}
-    SHORT,
-    annotation {"Name" : "Long"}
-    LONG,
-    annotation {"Name" : "No trim"}
-    NO_TRIM
+    NONE,
+    FLAT,
+    CONVEX,
+    CONCAVE
 }
 
