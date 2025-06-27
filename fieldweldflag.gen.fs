@@ -6,17 +6,12 @@ FeatureScript 2695; /* Automatically generated version */
 /* Automatically generated file -- DO NOT EDIT */
 
 /**
- * Specifies how to trim the created blend.
+ * Enum to determine whether we should display no flag, upper flag or lower flag.
  */
-export enum FaceBlendTrimType
+export enum FieldWeldFlag
 {
-    annotation {"Name" : "Walls"}
-    WALLS,
-    annotation {"Name" : "Short"}
-    SHORT,
-    annotation {"Name" : "Long"}
-    LONG,
-    annotation {"Name" : "No trim"}
-    NO_TRIM
+    NONE,
+    UPPER,
+    LOWER
 }
 
