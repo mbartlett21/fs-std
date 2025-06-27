@@ -1,11 +1,11 @@
-FeatureScript 2695; /* Automatically generated version */
-import(path : "onshape/std/feature.fs", version : "2695.0");
-import(path : "onshape/std/valueBounds.fs", version : "2695.0");
-import(path : "onshape/std/approximationUtils.fs", version : "2695.0");
-import(path : "onshape/std/containers.fs", version : "2695.0");
-import(path : "onshape/std/evaluate.fs", version : "2695.0");
-import(path : "onshape/std/topologyUtils.fs", version : "2695.0");
-import(path : "onshape/std/math.fs", version : "2695.0");
+FeatureScript 9999; /* Automatically generated version */
+import(path : "onshape/std/feature.fs", version : "");
+import(path : "onshape/std/valueBounds.fs", version : "");
+import(path : "onshape/std/approximationUtils.fs", version : "");
+import(path : "onshape/std/containers.fs", version : "");
+import(path : "onshape/std/evaluate.fs", version : "");
+import(path : "onshape/std/topologyUtils.fs", version : "");
+import(path : "onshape/std/math.fs", version : "");
 
 /**
  * Constrained surface input type
