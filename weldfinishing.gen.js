@@ -3,6 +3,19 @@ FeatureScript 2716; /* Automatically generated version */
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present PTC Inc.
 
-export import(path : "onshape/std/circularPattern.fs", version : "2716.0");
-export import(path : "onshape/std/curvePattern.fs", version : "2716.0");
-export import(path : "onshape/std/linearPattern.fs", version : "2716.0");
+/* Automatically generated file -- DO NOT EDIT */
+
+/**
+ * Enum to determine the weld finishing in ANSI standard.
+ */
+export enum WeldFinishing
+{
+    NONE,
+    CHIPPING,
+    GRINDING,
+    HAMMERING,
+    MACHINING,
+    ROLLING,
+    UNSPECIFIED
+}
+
