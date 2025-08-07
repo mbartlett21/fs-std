@@ -1,4 +1,4 @@
-FeatureScript 9999; /* Automatically generated version */
+FeatureScript 2737; /* Automatically generated version */
 // This module is part of the FeatureScript Standard Library and is distributed under the MIT License.
 // See the LICENSE tab for the license text.
 // Copyright (c) 2013-Present PTC Inc.
@@ -18,6 +18,9 @@ export enum WeldType
     V_FLARE_GROOVE,
     BEVEL_FLARE_GROOVE,
     BEAD_JOINT,
-    FILLET_JOINT
+    FILLET_JOINT,
+    PLUG_OR_SLOT_JOINT,
+    SEAM_JOINT,
+    SPOT_JOINT
 }
 
