@@ -70,6 +70,8 @@ FeatureScript 9999; /* Automatically generated version */
  * @value CAN_BE_TOLERANT_DIAMETER : For Onshape internal use.
  * @value PLUS_MINUS : Like `OPPOSITE_DIRECTION` but indicating whether the associated quantity is positive or negative.
  * @value ALWAYS_USE_DEPENDENCIES : Always use the content of this parameter to determine feature dependencies.
+ * @value NO_QUERY_VARIABLE : Hides the query variable dropdown for the associated query parameter.
+ * @value ALLOW_FLAT_SKETCH_SELECTION : Allows a feature list parameter to select sketches defined on flat views.
  */
 export enum UIHint
 {
@@ -107,6 +109,8 @@ export enum UIHint
     CAN_BE_TOLERANT,
     CAN_BE_TOLERANT_DIAMETER,
     PLUS_MINUS,
-    ALWAYS_USE_DEPENDENCIES
+    ALWAYS_USE_DEPENDENCIES,
+    NO_QUERY_VARIABLE,
+    ALLOW_FLAT_SKETCH_SELECTION
 }
 
