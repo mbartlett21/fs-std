@@ -5,11 +5,11 @@ FeatureScript 2770; /* Automatically generated version */
 
 /* Automatically generated file -- DO NOT EDIT */
 
-/** @internal */
-export enum RadiusDisplay
+/**
+ * Used to specify the Onshape standard schema class for a dimension, as in setDimensionedEntities.
+ */
+export enum ToleranceSchemaClass
 {
-    NONE,
-    RADIAL,
-    DIAMETRAL
+    FILLET_RADIUS
 }
 
